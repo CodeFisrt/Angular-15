@@ -16,3 +16,8 @@ git checkout gk-dev(your created branch)
 4] git commit
 4.1] stage your changes
 4.2] write message for your commit
+
+5] code push
+git push origin [your branch]
+
+6] PR/MR 
