@@ -1,0 +1,18 @@
+a) Repository ===> lead 
+b) branch ===>
+
+
+1] git clone
+
+2] git pull
+git pull origin branch_name
+
+3] git push 
+3.1] create your branch from main branch / feature branch / sprint branch 
+git branch branch_name
+3.2] checkout your created branch
+git checkout gk-dev(your created branch)
+
+4] git commit
+4.1] stage your changes
+4.2] write message for your commit
