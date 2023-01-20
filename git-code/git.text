@@ -13,6 +13,7 @@ git branch branch_name
 3.2] checkout your created branch
 git checkout gk-dev(your created branch)
 
+
 4] git commit
 4.1] stage your changes
 4.2] write message for your commit
