@@ -1,0 +1,24 @@
+.navbar .navbar-brand {
+    font-size: 30px;
+    height: 55px;
+}
+
+.navbar .nav-item {
+    padding: 10px 20px;
+}
+
+.navbar .nav-link {
+    font-size: 15px;
+    margin-left: 0px;
+
+}
+
+.fa-bars {
+    color: #007bff;
+    font-size: 30px;
+}
+
+.logo-img {
+    position: relative;
+    bottom: 81px;
+}
