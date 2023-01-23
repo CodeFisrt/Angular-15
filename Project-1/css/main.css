@@ -1,0 +1,36 @@
+.main-page {
+    background-image: url(../img/bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.first {
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section,
+.bio,
+.skill-section,
+.edu-detail,
+.projects,
+.let-talk,
+.reach-me {
+    box-shadow: 0 2px 4px 0 gray, 0 4px 16px 0 gray;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.font {
+    font-size: 20px;
+}
+
+i {
+    font-size: 30px;
+}
