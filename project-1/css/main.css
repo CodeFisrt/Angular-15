@@ -1,0 +1,135 @@
+.main-body {
+    background-color: rgb(0, 0, 0);
+    
+}
+.fixed-top {
+    background-color:black;
+}
+.first-section {
+    margin-top: 35px;
+    justify-content: center;
+    
+    
+} 
+
+.camera-div{
+    color:#27aa78;
+    font-size:35px
+}
+.photo-text {
+    color: #fff;
+    font-size: 40px;
+    font-family:cardo sans-serif;
+    
+
+}
+.nav-div1 {
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+.icon-div {
+    font-size: 20px;
+    float:right;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 10px;
+
+}
+.jenny-wilson-text {
+    margin-top: 200px;
+}
+.jenny-wilson-text h1{
+    color: #fff;
+    font-family:cardo sans-serif;
+    margin: 0 0 10px 0;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+    
+}
+.jenny-wilson-text h1 span {
+    content: "";
+bottom: 0;
+left: 0;
+right: 0;
+z-index: -1;
+height: 80%;
+background-color: #29ac7a;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: none;
+background-size:2px;
+background-origin: padding-box;
+background-clip: border-box;
+}
+
+.jenny-wilson-text p{
+   
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  .btn-div a{
+    font-family:"inter",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 47px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background:#27aa78;
+}
+.main-gallary {
+    justify-items: center;
+    margin-top: 100px;
+    align-items: center;
+    
+
+}
+.gallary-1{
+    height:270px;
+    width: 370px;
+    border-radius: 10px;
+    
+    
+}
+.gallary-2{
+    height:270px;
+    width: 370px;
+    border-radius: 10px;
+}
+.gallary-3{
+    height:270px;
+    width: 370px;
+    border-radius: 10px;
+}
+.gallary-4{
+    height:270px;
+    width: 370px;
+    border-radius: 10px;
+}
+.footer-div {
+    color:rgba(255, 255, 255, 0.8);
+    margin-top:80px;
+    padding-left:600px;
+    line-height:10px;
+    font-size: 17px;
+    
+    
+    
+}
+.design-text {
+    padding-left: 80px;
+}
+.design-text span{
+    color:#28aa78;
+}
