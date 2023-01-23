@@ -18,14 +18,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <section>
-        <nav class="navbar sticky-top navbar-expand-lg bg-white">
+    <section id="header">
+        <nav class="navbar sticky-top navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand " href="index.html">
-                    <img src="assets/image/logo-1.png" alt="pallavi-logo" class="w-50 logo-img ">
+                    <span>P</span>allavi</a>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -33,34 +34,164 @@
                     <i class="fas fa-bars"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link " href="#">Home </a>
+                            <a class="nav-link " href="#home">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
+                            <a class="nav-link" href="#resume">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Project</a>
+                            <a class="nav-link" href="#project">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <div class="col-md-3 text-end">
-                        <a href="https://drive.google.com/file/d/1A6b8ce0hOwbXYOFdK1anARqBu5AVlroE/view"
-                            target="_blank">
-                            <button type="button" class="btn btn-outline-info me-2">Download CV</button>
-
+                    <div class="col-md-3 text-end social-menu">
+                        <ul>
+                            <li><a href="#" target="blank"><i class="fab fa-github"></i></i></a></li>
+                            <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
+    </section>
 
+    <section id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="col-lg-8 col-md-6 w-100 p-5 heading-text ">
+                <div class="slider text-center">
+                    <span class="sub-text">Hey! I am</span>
+                    <h1 class="head-name">Pallavi Kene</h1>
+                    <h2>I'm a <span
+                            class="head-profile animate__animated animate__rotateInDownLeft animate__infinite	infinite ">UI/UX
+                            Designer</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="mouse">
+            <a href="#resume" class="mouse-icon">
+                <div class="mouse-wheel"><i class="fa-solid fa-arrow-down-long animate__animated animate__slideInDown
+                        animate__infinite infinite animate__delay-2s	2s"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12  about-me">
+                    <h1 class="text-about">ABOUT ME</h1>
+                    <p class="p-about">I have 6 month experience in Web design in developing
+                        responsive & interactive website in HTML,CSS,Bootstrap.
+                        Designing in photoshop,illustrator and hands-on experience
+                        adobe xd, increating wireframes,user flows & process flows ability
+                        to communicate & present ideas.</p>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 "></div>
+                    <div class="col-md-6 ps-4">
+                        <ul
+                            class="about-info  mt-4 px-md-0 px-2 list-unstyled shadow p-3 mb-5 bg-body-tertiary rounded ">
+                            <li class=" pt-3"><span>Name :</span> <span>Pallavi Kene</span></li>
+                            <li class=" pt-3"><span>Date of birth :</span> <span>February 17, 1999</span></li>
+                            <li class=" pt-3"><span>Gender :</span> <span>Female</span></li>
+                            <li class=" pt-3"><span>Address :</span> <span>Plot No. 450, Vinoba Bhave Nagar,
+                                    Nagpur</span></li>
+                            <li class=" pt-3"><span>Email :</span> <span>pallavikene26@gmail.com</span>
+                            </li>
+                            <li class=" pt-3"><span>Contact No : </span> <span>9284249219</span></li>
+                        </ul>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="https://drive.google.com/file/d/1A6b8ce0hOwbXYOFdK1anARqBu5AVlroE/view"
+                            target="_blank">
+                            <button type="button" class="btn btn-outline-primary me-2">DOWNLOAD CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 pt-5">
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#professional-skill">Professional Skills</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9 pt-5">
+                    <div id="education" class="page one">
+                        <h2 class="heading">Education</h2>
+                        <div class="resume-wrap d-flex ">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="graduate"><i class="fa-solid fa-user-graduate"></i></span>
+                            </div>
+                            <div class="text ps-5 pb-3">
+                                <span class="date">2017-2021</span>
+                                <h2>Bachelor of Cosmetic Technology</h2>
+                                <p>Mahila Mahavidyalaya with 64.16%
+                                    RTMN University Nagpur,Maharashtra.</p>
+                            </div>
+                        </div>
+                        <div class="resume-wrap d-flex ">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="graduate"><i class="fa-solid fa-user-graduate"></i></span>
+                            </div>
+                            <div class="text ps-5 pb-3">
+                                <span class="date">2014-2016</span>
+                                <h2>Higher Secondary Certificate (HSC)</h2>
+                                <p>Sarswati Vidya Mandir with 55.38%
+                                    MSB Nagpur,Maharashtra.</p>
+                            </div>
+                        </div>
+                        <div class="resume-wrap d-flex ">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="graduate"><i class="fa-solid fa-user-graduate"></i></span>
+                            </div>
+                            <div class="text ps-5 pb-3">
+                                <span class="date">2013-2014</span>
+                                <h2>Secondary School Certificate (SSC)</h2>
+                                <p>Dayaramji Wade High school with 78.60%
+                                    MSB Nagpur,Maharashtra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience" class="page two pt-5">
+                        <h2 class="heading">Experience</h2>
+                        <div class="resume-wrap d-flex ">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="laptop"><i class="fa-solid fa-laptop-file"></i></i></span>
+                            </div>
+                            <div class="text ps-5 pb-3">
+                                <span class="date">16-04-2022 To 16-10-2022</span>
+                                <h2>Web Designer (Intern)</h2>
+                                <p>Arena ITech pvt.ltd
+                                    Nagpur, Maharashtra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -69,6 +200,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 

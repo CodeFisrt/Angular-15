@@ -1,0 +1,68 @@
+@media only screen and (min-width:200px) and (max-width:567px) {
+    .navbar .navbar-brand {
+        position: sticky;
+    }
+
+    .navbar-brand:after {
+        left: -12px;
+    }
+
+    .navbar .nav-item {
+        padding: 12px 0px 2px 25px;
+    }
+
+    .social-menu ul {
+        position: absolute;
+        top: 29%;
+        left: 75%;
+    }
+
+    .heading-text {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .about-me {
+        margin: 296px 0px 0px 0px;
+    }
+
+    .about-info li {
+        padding: 0px 0px 0px 7px;
+    }
+
+}
+
+@media only screen and (min-width:567px) and (max-width:992px) {
+    .navbar .navbar-brand {
+        position: sticky;
+    }
+
+    .navbar-brand:after {
+        left: -12px;
+    }
+
+    .social-menu ul {
+        position: absolute;
+        top: 29%;
+        left: 75%;
+    }
+
+    .about-me {
+        margin: 296px 0px 0px 0px;
+    }
+
+    .about-info li {
+        padding: 0px 0px 0px 31px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .social-menu ul {
+        position: absolute;
+        top: 44%;
+        left: 87%;
+    }
+
+    .about-info li {
+        padding: 0px 0px 0px 50px;
+    }
+}
