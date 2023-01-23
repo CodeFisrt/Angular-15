@@ -1,0 +1,29 @@
+.prof-pic {
+    border-radius: 50%;
+    padding-right: 50%;
+    padding-left: 50%;
+    width: 75%;
+}
+.name {
+    text-align: center
+}
+
+#spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 5s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"RANJEET MISAL";}
+    20% { content:"DEVELOPER";}
+    40% { content:"FROM INDIA";}
+  }
+  @keyframes mymove {
+    from {right: 20px;}
+    to {left: 0px}
+  }
+  .profile-link {
+    display: grid ;
+  }
