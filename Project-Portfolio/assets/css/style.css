@@ -89,7 +89,7 @@ body {
 
 .head-name {
     font-size: 65px;
-    font-weight: 500;
+    font-weight: 700;
     color: #312f2f;
     line-height: 1.5;
 }
@@ -297,13 +297,13 @@ body {
 .page .heading {
     font-weight: 800;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 49px;
     color: #3e64ff;
 }
 
 .resume-wrap {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
 }
@@ -334,7 +334,269 @@ body {
 }
 
 .resume-wrap h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: black;
+}
+
+.porcentage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: white;
+}
+
+.porcentage h4 {
+    font-size: 1.8rem;
+    font-family: inherit;
+}
+
+.porcentage hr {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 200px;
+    border: 2px solid black;
+
+}
+
+.container2 {
+    position: relative;
+    width: 960px;
+    display: flex;
+}
+
+.container2 .card {
+    position: relative;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 0px;
+    border: 1px solid white;
+}
+
+.container2 .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+}
+
+.container2 .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50;
+    width: 100%;
+    height: 100%;
+    background: white;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #ffffff;
+    background: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.percent .number h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 33px;
+    transition: 0.5s;
+}
+
+.card:hover .percent .number h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.percent .number h2 span {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.card:hover .percent .number h2 span {
+    color: rgb(0, 0, 0);
+}
+
+.percent h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text {
+    position: relative;
+    color: white;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-85deg) !important;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #7b94f5;
+    stroke-width: 5;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+/* .card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 10) / 100);
+    stroke: #3e64ff;
+}
+
+.card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #3e64ff;
+}
+
+.card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 1) / 100);
+    stroke: #3e64ff;
+} */
+
+.progress-wrap {
+    width: 83%;
+    margin-bottom: 30px;
+}
+
+.progress-wrap h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.progress {
+    height: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #e6e6e6;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #3e64ff;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+}
+
+.progress-bar span {
+    position: absolute;
+    top: -38px;
+    right: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    content: '';
+    background: #3e64ff;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.project-head {
+    color: #3e64ff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 2;
+    text-align: center;
+}
+
+.project-box {
+    /* border-color: #3e64ff; */
+    border: none;
+}
+
+.hire-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hire-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+/* .hire-me {
+    background: #3e64ff;
+    z-index: 0;
+} */
+
+.hire-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #3e64ff;
+    opacity: 0.3;
+
+}
+
+.hire-section h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hire-section h2 span {
+    color: #a0f669;
 }

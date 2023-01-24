@@ -29,6 +29,32 @@
         padding: 0px 0px 0px 7px;
     }
 
+    .card-box {
+        padding: 0px 0px 39px 61px;
+    }
+
+    .container2 .card {
+        position: relative;
+        width: 100%;
+        right: 23px;
+        /* left: 0px; */
+    }
+
+    .progress-box {
+        padding: 0px 0px 0px 40px;
+    }
+
+    .about-box {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .btn-cv {
+        padding: 0px 0px 0px 32px;
+    }
+
+    .resume-wrap {
+        padding: 0px 21px 0px 88px;
+    }
 }
 
 @media only screen and (min-width:567px) and (max-width:992px) {
@@ -53,6 +79,16 @@
     .about-info li {
         padding: 0px 0px 0px 31px;
     }
+
+    .card-box {
+        padding: 0px 0px 37px 90px;
+    }
+
+    .container2 .card {
+        position: relative;
+        width: 100%;
+        right: 41px;
+    }
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px) {
@@ -65,4 +101,36 @@
     .about-info li {
         padding: 0px 0px 0px 50px;
     }
+
+    .container2 .card {
+        width: 210px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container2 .card {
+        position: relative;
+        left: -5px;
+    }
+
+    .about-me {
+        margin: 296px 0px 0px 21px;
+    }
+
+    .progress-box {
+        padding: 0px 0px 0px 54px;
+    }
+
+    .about-box {
+        padding: 0px 0px 0px 61px;
+    }
+
+    .btn-cv {
+        padding: 0px 0px 0px 75px;
+    }
+
+    .resume-wrap {
+        padding: 0px 0px 0px 35px;
+    }
+
 }
