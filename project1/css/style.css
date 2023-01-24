@@ -1,0 +1,10 @@
+.bg-img{
+    background-image: url(../img/bg-image.jpg);
+    height:1000px;
+    width:1000px;
+
+    Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
