@@ -4,11 +4,13 @@ body {
   overflow-x: hidden;
   background-color: rgb(6, 19, 25);
 }
-.logo-div{
+/* .logo-div{
   height: 30px;
+} */
+
+.logo-img {
+  width: 150px;
 }
-
-
 .sidenav {
   height: 100%;
   /* 100% Full-height */
@@ -64,7 +66,7 @@ body {
 .menu-bar {
   font-size: 35px;
   color: white;
-  margin: 56px 0px;
+  margin: 5px 0px;
 }
 
 .head-section {
