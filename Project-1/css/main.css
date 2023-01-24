@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
   background-color: rgb(6, 19, 25);
 }
+.logo-div{
+  height: 30px;
+}
+
 
 .sidenav {
   height: 100%;
@@ -63,14 +67,42 @@ body {
   margin: 56px 0px;
 }
 
-.head-section{
-  text-align: center;
-}
-.head-div{
+.head-section {
   text-align: center;
 }
 
-.button-div{
+.head-div {
   text-align: center;
+}
+
+.button-div {
+  text-align: center;
+
+}
+
+.heading-seven {
+  text-align: center;
+}
+
+.complete,
+.Global,
+.Success,
+.Completed {
+  margin: 10px -36px;
+}
+
+.Photography-content,
+.Videography-content,
+.Photo-Retouching-content {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.Up-Lightening-content,
+.Arial-Photography-content,
+.Color-Grading-content{
+  text-align: center;
+  border-right: 1px solid grey;
  
 }
