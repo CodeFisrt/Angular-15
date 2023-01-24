@@ -1,9 +1,10 @@
 .prof-pic {
     border-radius: 50%;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 70px;
 }
-.name {
-    text-align: center
-}
+
 
 /* #spin {
     color:red;
@@ -23,8 +24,18 @@
   } */
   .profile-link {
     display: grid ;
+    padding-top: 20px;
   }
-  .intropg-1 {
-    background-image: url(/git-code/Project-1/Image/img-1.jpg);
-    width: 100%;
-  }
+  .social-link {
+    color: black;
+    margin: 0px 8px;
+    }
+    .btn-expand {
+      background-color: transparent;
+      padding: 5px 5px !important;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
