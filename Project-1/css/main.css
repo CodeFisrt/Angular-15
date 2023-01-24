@@ -1,0 +1,17 @@
+body {
+  background-color: #0c0b37;
+}
+
+.dropdown-menu 
+
+{
+  background: #243654;
+}
+li.nav-item {
+  padding: 0 21px;
+  font-weight: 700;
+  font-size: medium;
+}
+.banner {
+  color: #fff;
+}
