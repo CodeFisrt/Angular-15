@@ -1,5 +1,6 @@
 body {
-  background-color: #0c0b37;
+  background-color:black;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .dropdown-menu 
@@ -7,11 +8,28 @@ body {
 {
   background: #243654;
 }
+a .nav-link:hover {
+  color: red;
+}
 li.nav-item {
   padding: 0 21px;
   font-weight: 700;
   font-size: medium;
 }
+
+
+.btn:hover {
+  background: gray; 
+}
+
 .banner {
   color: #fff;
+}
+.heading {
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 200%;
+  height: auto;
 }
