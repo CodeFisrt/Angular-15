@@ -164,7 +164,7 @@ body {
 
 .text-about {
     color: #3e64ff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
     line-height: 2;
     text-align: center;
@@ -270,24 +270,12 @@ body {
     margin-bottom: 10px;
 }
 
-#nav li a.current {
+#nav li a:hover {
     color: #3e64ff;
     margin-left: 20px;
     position: relative;
 }
 
-#nav li a.current:after {
-    position: absolute;
-    top: 50%;
-    left: -24px;
-    width: 20px;
-    height: 2px;
-    content: '';
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background: #3e64ff;
-}
 
 #nav li a {
     color: #000000;
@@ -300,6 +288,7 @@ body {
     margin-bottom: 49px;
     color: #3e64ff;
 }
+
 
 .resume-wrap {
     width: 100%;
@@ -483,20 +472,6 @@ svg circle:nth-child(2) {
     stroke-dashoffset: 440;
 }
 
-/* .card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 10) / 100);
-    stroke: #3e64ff;
-}
-
-.card:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
-    stroke: #3e64ff;
-}
-
-.card:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 1) / 100);
-    stroke: #3e64ff;
-} */
 
 .progress-wrap {
     width: 83%;
@@ -550,18 +525,21 @@ svg circle:nth-child(2) {
     opacity: 0;
 }
 
+/* project */
+
 .project-head {
     color: #3e64ff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
     line-height: 2;
     text-align: center;
 }
 
 .project-box {
-    /* border-color: #3e64ff; */
     border: none;
 }
+
+/* freelancing */
 
 .hire-img {
     background-size: cover;
@@ -574,20 +552,14 @@ svg circle:nth-child(2) {
     position: relative;
 }
 
-/* .hire-me {
-    background: #3e64ff;
-    z-index: 0;
-} */
-
 .hire-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
     bottom: 0;
     content: '';
     background: #3e64ff;
-    opacity: 0.3;
+    opacity: 0.2;
 
 }
 
@@ -599,4 +571,123 @@ svg circle:nth-child(2) {
 
 .hire-section h2 span {
     color: #a0f669;
+}
+
+/* contact */
+.contact-me {
+    color: #3e64ff;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 2;
+    text-align: center;
+}
+
+
+/* ///// inputs /////*/
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+}
+
+
+
+.styled-input label {
+    color: #999;
+    padding: 0.3rem 31px 0rem 30px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+    border: 1px solid #FFF;
+}
+
+input,
+textarea {
+    padding: 9px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #2d2d2d;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+input:focus~span,
+textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 13em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+.submit-btn {
+
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
+        0 2px 10px 0 rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+
+input[type=checkbox]+label {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[type=checkbox]:checked+label {
+    color: #f00;
+    font-style: normal;
 }
