@@ -13,64 +13,69 @@
    
 </head>
     <body>
+      <!-- Header section -->
         <section>
-                    <nav class="navbar navbar-expand-lg bg-dark">
-                        <div class="container">
-                          <a class="navbar-brand" href="#"><img src="../Project-1/img/Logo-img (2).png" alt=""></a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                 Home
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item text-white" href="#">Developer</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Designer</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Aesthetic</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Marketer</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Photographer</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Freelancer</a></li>
-                          <li><a class="dropdown-item text-white" href="#">Doctor</a></li>
-                                </ul>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">About</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white">Portfolio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white">Contact</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white">Blog</a>
-                              </li>
+                <div class="header-wraper">
+                  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="../Project-1/img/Logo-img (2).png" alt="" class="img-fluid">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Home
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-white" href="#">Developer</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Designer</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Aesthetic</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Marketer</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Photographer</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Freelancer</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Doctor</a></li>
                             </ul>
-                              <button class="btn btn-success btn-lg" type="submit">Get Started</button>
-                          </div>
-                        </div>
-                      </nav>
-                  
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#About">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#Services">Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#Portfolio">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#Contact">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#Blogs">Blogs</a>
+                          </li>
+                        </ul>
+                          <button class="btn btn-success btn-lg" type="submit">Get Started</button>
+                      </div>
+                    </div>
+                  </nav>
+                </div>   
         </section>
         
-        <section>
+
+        <!-- Intro Section -->
+        <section class="banner-wrap">
             <div class="container">
                 <div class="row py-5">
-                  <div class="col-md-7">
-                             <div class="banner">
+                  <div class="col-md-7 banner-content">
                                 <p> I’m Miss.Rutuja Jadhav</p>
-                                <h1 class="heading">An Software Developer</h1>
+                                <h1>An Software Developer</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut
                                     labore et dolore magna aliqua.</p>
-                             </div>
+                             
                              <button class="btn btn-success btn-lg" type="submit">Download CV <i class="fa-solid fa-download text-white"></i></button>
-                             <a href="#" class="about-btn text-white">About me</a>
+                             <a href="#" class="about-btn ms-4">About me</a>
 
                     </div>
                         <div class="col-md-5">
@@ -80,17 +85,20 @@
                 </div>
             </div>
         </section>
+
+        <!-- About section -->
+        <section class="about-wrap">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-                 <img src="../Project-1/img/intro-img.png" alt="">
+          <div class="row py-5 align-items-center">
+            <div class="col-md-5 mb-4"> 
+                 <img src="../Project-1/img/intro-img.png" alt=""> 
             </div>
-            <div class="col-md-8">
-                    <div class="text-wrap text-white">
-                      <p> About me</p>
+            <div class="col-md-7 mb-lg-0">
+                    <div class="about-content text-white">
+                     <h5>About me</h5>
                                 <h1>Why Hire Me for Your
                                   Next Project?</h1>
-                                <p>Nunc eu augue at nunc consectetur venenatis sit amet sodales metus. Sed at gravida nisi,
+                                <p class="para mt-4">Nunc eu augue at nunc consectetur venenatis sit amet sodales metus. Sed at gravida nisi,
                                   mattis lacinia ipsum. Pellentesque suscipit odio quis ligula maximus aliquet. Integer cursus
                                   ipsum et posuere ornare.</p>
                                   
@@ -98,14 +106,18 @@
                                   their digital media, design & development, lead generation and communications
                                   requirents.We work with you, not for you.</p>
                     </div>
-                    <button class="btn btn-success btn-lg" type="submit">Learn more</button>
+                    <button class="btn btn-success btn-lg mt-4" type="submit">Learn more</button>
                              
             </div>
           </div>
         </div>
-        <section>
+      </section>
 
+      <!-- page-2 -->
+        <section>
+              
         </section>
+        
 
 
              
