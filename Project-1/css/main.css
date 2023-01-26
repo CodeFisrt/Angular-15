@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   background-color: rgb(6, 19, 25);
 }
+
 /* .logo-div{
   height: 30px;
 } */
@@ -11,6 +12,7 @@ body {
 .logo-img {
   width: 150px;
 }
+
 .sidenav {
   height: 100%;
   /* 100% Full-height */
@@ -68,6 +70,14 @@ body {
   color: white;
   margin: 5px 0px;
 }
+.btn1{
+  background-color: orangered;
+  
+}
+.list-wrap,
+.list-wrap2 {
+  list-style: none;
+}
 
 .head-section {
   text-align: center;
@@ -92,19 +102,21 @@ body {
 .Completed {
   margin: 10px -36px;
 }
-
-.Photography-content,
-.Videography-content,
-.Photo-Retouching-content {
-  text-align: center;
-  border-bottom: 1px solid grey;
-  border-right: 1px solid grey;
+.read-btn{
+ align-items: flex-end;
+ color: white;
+ font-size: 15px;
 }
 
-.Up-Lightening-content,
-.Arial-Photography-content,
-.Color-Grading-content{
+.img-text-wrap {
   text-align: center;
-  border-right: 1px solid grey;
- 
+}
+.logo-img2 {
+  
+  width: 150px;
+}
+.btext::before{
+  content:"Porichiti";
+  color: orangered;
+  font-size: 20x;
 }

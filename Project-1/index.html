@@ -23,51 +23,54 @@
 
 <body>
   <section>
-    <div class="container">
+    <header>
+      <nav class="navigation navbar-fixed">
+        <div class="container">
 
-      <div class="row align-items-center py-3">
-        <div class="col-6">
-          <div class="logo-div">
-            <img src="../Project-1/img/logo-5.png" class="img-fluid logo-img" alt="">
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="menu-wrap text-end">
-            <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Clients</a>
-              <a href="#">Contact</a>
+          <div class="row align-items-center py-3">
+            <div class="col-6">
+              <div class="logo-div">
+                <img src="../Project-1/img/logo-5.png" class="img-fluid logo-img" alt="">
+              </div>
             </div>
-            <!-- Use any element to open the sidenav -->
-            <a href="#" onclick="openNav()">
-              <i class="fa-solid fa-bars menu-bar"></i></a>
+            <div class="col-6">
+              <div class="menu-wrap text-end">
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Clients</a>
+                  <a href="#">Contact</a>
+                </div>
+                <!-- Use any element to open the sidenav -->
+                <a href="#" onclick="openNav()">
+                  <i class="fa-solid fa-bars menu-bar"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
+    </header>
     </div>
 
   </section>
   <section>
-    <div class="container">
+    <div class="container bg-black">
       <div class="row flex-row">
         <div class="col-4">
           <img src="img/banner-img-5.png" alt="">
         </div>
         <div class="col-8">
           <div class="content-wrap py-5 px-5 my-4 mx-5">
-            <h4 class="text-danger fs-4 py-4 mx-5">Introduction</h4>
-            <h1 class="text-white fs-1 py-2 mx-5">I'm a Freelance & Software Developer</h1>
+            <h4 class="text-danger fs-4 py-3 mx-5">Introduction</h4>
+            <h1 class="text-white fs-1 py-1 mx-5">I'm a Freelance & Software Developer</h1>
             <p class="text-white fs-4 py-2 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non
               a tempora! sit omnis
               distinctio? dfsff dfsafsf amr ilsore karoem</p>
-            <button type="button" class="btn btn-danger px-5 mx-5 ">Download CV <i
-                class="fa-solid fa-download"></i></button>
+            <button type="button" class="btn  btn1 text-white  fw-1 py-2 px-5 mx-5 ">Download CV <i
+                class="fa-solid fa-download text-white"></i></button>
             <a href="#" class="fs-3 text-white">About Me</a>
           </div>
-
-
         </div>
       </div>
     </div>
@@ -83,10 +86,10 @@
               labore et
               dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.</h4>
           </div>
-          <div class="row text-white py-5 fw-4 d-flex">
+          <div class="row text-white py-3 my-3 fw-4 d-flex">
 
-            <div class="col-6">
-              <ul>
+            <div class="col-6  ">
+              <ul class="list-wrap">
                 <li> Birthday: 24.08.1996</li>
                 <li> City: Honululu</li>
                 <li> Study: MBA </li>
@@ -97,7 +100,7 @@
             </div>
 
             <div class="col-6">
-              <ul>
+              <ul class="list-wrap2">
                 <li>Age: 25 </li>
                 <li> Hobby: Coding </li>
                 <li>Degree: BSc in CSE </li>
@@ -108,8 +111,8 @@
             </div>
           </div>
 
-          <button type="button" class="btn btn-danger py-2 px-4 mx-1 fs-3 fw-2"> Learn More
-            <i class="fa-solid fa-arrow-right"></i>
+          <button type="button" class="btn btn1 py-2 px-4 mx-1 fs-3 fw-2 text-white"> Learn More
+            <i class="fa-solid fa-arrow-right text-white"></i>
           </button>
         </div>
         <div class="col-6 px-5">
@@ -151,17 +154,22 @@
     </div>
   </section>
   <section>
+
     <div class="container">
+
       <div class="row py-5 my-5  my-5 align-middle">
 
 
         <div class="col-3">
-          <img src="../Project-1/img/img-1.png" alt="">
-          <h1 class="fs-2 fw-1 my-4 text-white">5670</h1>
-          <h6 class="complete fs-6 fw-1 my-4 text-white">COMPLETED PROJECTS</h6">
+          <div class="pc-review-left-shape">
+            <img src="../Project-1/img/half-shape.png" class="img-fluid " alt="img">
+            <div class="project-div">
+              <img src="../Project-1/img/img-1.png" alt="">
+              <h1 class="fs-2 fw-1 my-4 text-white">5670</h1>
+              <h6 class="complete fs-6 fw-1 my-4 text-white">COMPLETED PROJECTS</h6">
+            </div>
+          </div>
         </div>
-
-
         <div class="col-3">
           <img src="../Project-1/img/img-2.png" alt="">
           <h1 class="fs-2 fw-1 my-4 text-white">5400</h1>
@@ -192,11 +200,11 @@
           </div>
         </div>
       </div>
-      <div class="row   my-5">
-        <div class="col-4 border-end border-bottom py-4">
-          <div class="img-text-wrap">
+      <div class="row  my-5">
+        <div class="col-4 border-end border-bottom py-4 ">
+          <div class="img-text-wrap ">
             <img src="../Project-1/img/camera.png" class="" alt="">
-            <h3 class="text-white align-middle">Photography</h3>
+            <h3 class="text-white align-middle py-2">Photography</h3>
             <p class="text-white"> Contrary to popular belief,
               Lorem Ipsum is not simply random text.It has
               roots in a piece of classical.</p>
@@ -206,7 +214,7 @@
         <div class="col-4 border-end border-bottom py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/photograph.png" alt="">
-            <h3 class="text-white">Videography</h3>
+            <h3 class="text-white py-2">Videography</h3>
             <p class="text-white service-content-desp">Contrary to popular belief, Lorem Ipsum is not simply random
               text. It has roots in
               a piece of classical.
@@ -216,37 +224,37 @@
         <div class="col-4  border-bottom py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/eye.png" alt="">
-            <h3 class="text-white">Photo Retouching</h3>
+            <h3 class="text-white py-2">Photo Retouching</h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
             </p>
           </div>
         </div>
-        <div class="col-4 border-end border-bottom py-4">
+        <div class="col-4 border-end  py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/ul.png" alt="">
-            <h3 class="text-white">Up Lightening</h3>
+            <h3 class="text-white py-2">Up Lightening</h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
             </p>
           </div>
         </div>
-        <div class="col-4 border-end border-bottom py-4">
+        <div class="col-4 border-end  py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/arial.png" alt="">
-            <h3 class="text-white"> Arial Photography</h3>
+            <h3 class="text-white py-2"> Arial Photography</h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
             </p>
           </div>
         </div>
-        <div class="col-4  border-bottom py-4">
+        <div class="col-4   py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/color.png" alt="">
-            <h3 class="text-white">Color Grading </h3>
+            <h3 class="text-white py-2">Color Grading </h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
@@ -254,19 +262,21 @@
           </div>
         </div>
       </div>
-  
+
     </div>
   </section>
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-12 text-white  fw-2">
+        <div class="col-12 text-white  fw-1">
           <div class="head-div">
             <h3>MY WORKS</h3>
             <h2>Exclusive Work Examples</h2>
           </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="col-12">
           <div class="button-div py-4">
@@ -280,7 +290,7 @@
       </div>
       <div class="row">
         <div class="col-4">
-          <img src="../Project-1/img/computer-img.jpg"  class="img-fluid" alt="">
+          <img src="../Project-1/img/computer-img.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-8">
           <div class="row">
@@ -303,18 +313,18 @@
         <div class="col-4">
           <div class="row">
             <div class="col-12">
-              <img src="../Project-1/img/p6.jpg" alt="" class="img-fluid">
+              <img src="../Project-1/img/p6.jpg" alt="" class="img-fluid pt-4">
             </div>
             <div class="col-12">
-              <img src="../Project-1/img/p7.jpg" alt="" class="img-fluid">
+              <img src="../Project-1/img/p7.jpg" alt="" class="img-fluid pt-4">
             </div>
           </div>
         </div>
         <div class="col-8">
-          <img src="../Project-1/img/p5.jpg" class="img-fluid" alt="">
+          <img src="../Project-1/img/p5.jpg" class="img-fluid pt-4" alt="">
         </div>
       </div>
-     
+
     </div>
     </div>
   </section>
@@ -378,43 +388,153 @@
   </section>
 
 
+  
+  
+
+
+ 
   <section>
     <div class="container">
-      <div class="row py-4">
-        <div class="col-6">
-          <img src="../Project-1/img/contact_img.png" alt="">
-        </div>
-        <div class="col-6">
-          <div class="content-head text-white fw-2">
-            <h3>CONTACT</h3>
-            <h1>Get In Touch With Us</h1>
+      <div class="row">
+        <div class="col-12 text-white fw-semibold fw-1">
+          <div class="head-div">
+            <h3>UPDATE NEWSFEED</h3>
+            <h2> Update From Newsfeeds</h2>
           </div>
-      
-
-          <form class="contact-form">
-            <div class="row">
-              <div class="col-6 border-bottom py-4 ">
-                <input type="text" name="name" placeholder="Enter Name">
-              </div>
-              <div class="col-6">
-                <input type="email" name="email" placeholder="Enter Email">
-              </div>
-              <div class="col-12">
-                <input type="text" name="subject" placeholder="Subject">
-              </div>
-              <div class="col-12">
-                <textarea name="message" placeholder="Write Your message"></textarea>
-              </div>
-              
-            </div>
-          </form>
-          <button type="button" class="btn btn-danger py-2 px-4 mx-1 fs-3 fw-2"> Send Message
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
         </div>
       </div>
-      
+
+      <div class="row">
+        <div class="col-4 ">
+          <div class="card-group text-white">
+            <div class="card bg-black ">
+              <img src="../Project-1/img/card1-img.jpg" class=" img-fluid card-img-top" alt="...">
+              <div class="card-body  ">
+                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                </h5>
+                <p class="card-text border-bottom  fw-3 py-3"> Drive your business and manage ris with a global industry
+                  leader.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between  text-white">
+
+                <h6 class="">21 Apr 22</h6>
+                <button type="button" class="btn btn-link  text-end pt-0  read-btn">Read More</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-group text-white">
+            <div class="card bg-black">
+              <img src="../Project-1/img/card2-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                </h5>
+                <p class="card-text   border-bottom fw-3 py-3"> Drive your business and manage ris with a global
+                  industry leader.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between  text-white">
+
+                <h6 class="">21 Apr 22</h6>
+                <button type="button" class="btn btn-link  pt-0 read-btn">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-group text-white">
+            <div class="card bg-black">
+              <img src="../Project-1/img/card3-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                </h5>
+                <p class="card-text  border-bottom fw-3 py-3">Drive your business and manage ris with a global industry
+                  leader.</p>
+              </div>
+              <div class="card-footer  d-flex justify-content-between  text-white">
+
+                <h6 class="">21 Apr 22</h6>
+
+                <button type="button" class="btn btn-link  read-btn">Read More</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
+
+
+
+  <section>
+    <footer class="bg-black my-5 py-5">
+      <div class="container">
+        <div class="row py-5 my-3 text-white border-bottom ">
+          <div class="col-4 fw-semibold">
+            <img src="../Project-1/img/logo-5.png" class="img-fluid logo-img2" alt="">
+            <h2 class="py-4 my-2">(+12) 345-678-91012</h2>
+
+            <h5 class="py-1 ">75 Arlington St. Suite 500 Boston,<br> MA 02116, USA.</h5>
+            <div class="icon-div py-4">
+              <i class="fa-brands fa-facebook fs-1 px-2"></i>
+              <i class="fa-brands fa-twitter fs-1 px-2"></i>
+              <i class="fa-brands fa-youtube fs-1 px-2"></i>
+              <i class="fa-brands fa-skype fs-1 px-2"></i>
+
+            </div>
+          </div>
+          <div class="col-8  ">
+            <div class="row py-3 text-white  ">
+              <div class="col-3">
+                <h2 class="pb-3 ">Userful Links</h2>
+                <p class="">Marketing </p>
+                <p>Product Design</p>
+                <p> Web Design</p>
+                <p>Development</p>
+
+              </div>
+              <div class="col-3 px-4">
+                <h2 class="pb-3">Company</h2>
+                <p>IT Colsulting</p>
+                <p> About Us</p>
+                <p>Latest Blogs</p>
+                <p>Contact Us</p>
+
+
+              </div>
+              <div class="col-3">
+                <h2 class="pb-3">Solution</h2>
+                <p> Help</p>
+                <p> Support</p>
+                <p>Clients</p>
+                <p>Contacts</p>
+
+              </div>
+              <div class="col-3">
+                <h2 class="pb-3">Get App</h2>
+                <img src="../Project-1/img/play-store.png" class="img-fluid " alt="">
+                <img src="../Project-1/img/app-store.png" class="img-fluid py-3" alt="">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row text-white py-2 fs-5">
+          <div class="col-6 fw-semibold d-flex">
+            <p> Copyright </p>
+            <p class="btext px-2">2022 All Right Reserved</p>
+          </div>
+          <div class="col-6">
+            <img src="../Project-1/img/footer-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
