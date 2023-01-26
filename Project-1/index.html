@@ -10,10 +10,23 @@
     <link rel="stylesheet" href="../../../../Boostrap/Day-1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../../Boostrap/Day-1/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #home #about #myresume {
+            display: none;
+        }
+
+        .show:focus+.hide {
+            display: inline;
+        }
+
+        .show:focus+#cont {
+            display: block;
+        }
+    </style>
 </head>
 
 <body style="background-color: rgb(199 200 245 / 30%)">
-    <section>
+    <section class="home container-fluid">
         <div class="container-fluid" style="display: flex;">
             <div class="row" style="display: inline-flex; width: 100%;">
                 <!-- <div class="intropg-1 col-md-6 container-fluid"> -->
@@ -54,10 +67,10 @@
                         </button>
                     </div> -->
                 <!-- </div> -->
-                <div class="col-md-4 container-fluid bg-white">
-                    <aside class="sidebar bg-white" style="position: fixed;">
+                <div class="col-md-4 container-fluid bg-white side-bar">
+                    <aside class="sidebar bg-light" style="position: fixed;">
                         <img src="/Image/profile-pic.png" alt="" class="prof-pic">
-                        <h3 class="name" style="text-align: center;">Ranjeet Misal</h3>
+                        <h4 class="name py-4" style="text-align: center;">Ranjeet Misal</h4>
                         <div class="social link" style="text-align: center;">
                             <a href=""><i class="fa fa-facebook social-link"></i></a>
                             <a href=""><i class="fa fa-twitter social-link"></i></a>
@@ -66,28 +79,174 @@
                             <a href=""><i class="fa fa-vimeo social-link"></i></a>
                         </div>
                         <div class="profile-link" style="padding-top: 40px;">
-                            <ul style="display: contents; text-align: center;">
+                            <ul style="display: contents; text-align: center; list-style: none;">
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#home" class="btn-expand">home</a></li>
+                                    <a href="#home" id="cont" class="btn-expand">home</a>
+                                </li>
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#about" class="btn-expand">about</a></li>
+                                    <a href="#about" id="cont" class="clicker" tabindex="1">about</a>
+                                </li>
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#myresume" class="btn-expand">my resume</a></li>
+                                    <a href="#myresume" id="cont" class="btn-expand">my resume</a>
+                                </li>
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#services" class="btn-expand">services</a></li>
+                                    <a href="#services" id="cont" class="btn-expand">services</a>
+                                </li>
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#portfolio" class="btn-expand">portfolio</a></li>
+                                    <a href="#portfolio" id="cont" class="btn-expand">portfolio</a>
+                                </li>
                                 <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#myblog" class="btn-expand">my blog</a></li>
-                                <li style="padding-top: 10px; padding-bottom: 10px;">
-                                    <a href="#contact" class="btn-expand">contact</a></li>
+                                    <a href="#myblog" id="cont" class="btn-expand">my blog</a>
+                                </li>
+                                <li style="padding-top: 10px; padding-bottom: 50px;">
+                                    <a href="#contact" id="cont" class="btn-expand">contact</a>
+                                </li>
                             </ul>
                         </div>
                     </aside>
                 </div>
+                <div class="col-md-8">
+                    <div class="container about-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="home" class="home">
+                                    <h1> I AM <span id="spin" style="animation-iteration-count: 0;"></span></h1>
+                                    <table>
+                                        <tr>
+                                            <td>Age</td>
+                                            <td>31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date of Birth</td>
+                                            <td>07 Apr 1991</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Address</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>E-mail</td>
+                                            <td>ranjitmisal7@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>+91 9773628547</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Freelance</td>
+                                            <td>Available</td>
+                                        </tr>
+                                    </table>
+                                    <button>
+                                        <a href="">RESUME</a>
+                                    </button>
+                                    <button>
+                                        <a href="">HIRE ME</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="about" class="hiddendiv about col-md-12 px-2 py-2">
+                                <img class="img abt-img" src="/Image/aboutmeimg.jpg" alt="">
+                                <p class="abt-con">I'm 24 years old creative web designer based in New York,
+                                    specializing in User
+                                    Interface Design and Development. I build clean, appealing, and functional
+                                    interfaces which comply with the latest web standards.
+                                </p>
+                                <p class="abt-con">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="resume" class="hiddendiv about col-md-12 px-2 py-2">
+                                    <h2>RESUME</h2>
+                                    <div class="row">
+                                        <div class="col-md-6 px-2 py-2">
+                                            <h4>Education</h4>
+                                            <h6>Educational Specialist</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Doctoral Degree</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Master Degree</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Bachelor Degree</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+    
+                                        </div>
+                                        <div class="col-md-6 px-2py">
+                                            <h4>Experience</h4>
+                                            <h6>Lead Web Developer</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Senior Web Developer</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Junior Web Developer</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Web Developer</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="services" class="hiddendiv about col-md-12 px-2 py-2">
+                                    <h2>Services</h2>
+                                    <div class="row">
+                                        <div class="col-md-6 px-2 py-2">
+                                            <h6>Strategy Solutions</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Brand Building</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Easy To Setup</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            
+                                        </div>
+                                        <div class="col-md-6 px-2py">
+                                            <h6>Web Development</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Web Design</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>
+                                            <h6>Clean Code</h6>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum
+                                                nibh et metus facilisis sollicitudin.</p>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
     </section>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">

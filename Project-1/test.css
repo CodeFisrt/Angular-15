@@ -1,0 +1,12 @@
+#about-content {
+    display: none;
+    background-color: green;
+    margin: 10px;
+    }
+    #button [type="button"]{
+    width: 150px;
+    cursor: pointer;
+    }
+    input:focus + div#about-content {
+    display: block;
+    }

@@ -1,10 +1,13 @@
 .prof-pic {
-    border-radius: 50%;
-    width: 50%;
-    margin-top: 60px;
-    margin-left: 70px;
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 70px;
 }
 
+.side-bar {
+  position: absolute;
+}
 
 /* #spin {
     color:red;
@@ -22,20 +25,36 @@
     from {right: 20px;}
     to {left: 0px}
   } */
-  .profile-link {
-    display: grid ;
-    padding-top: 20px;
+.profile-link {
+  display: grid;
+}
+
+.social-link {
+  color: black;
+  margin: 0px 8px;
+}
+
+.clicker {
+  outline:none;
+  cursor:pointer;
   }
-  .social-link {
-    color: black;
-    margin: 0px 8px;
-    }
-    .btn-expand {
-      background-color: transparent;
-      padding: 5px 5px !important;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 12px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
+  
+  .hiddendiv{
+  display:none;
+  width: 100%;
+  display: grid;
+  margin-left: 320px;
+  background-color: white;
+  }
+  
+  .clicker:focus + .hiddendiv{
+  display:block;
+  }
+  .abt-img {
+  width: 102%;
+  margin-left: -8px;
+  margin-top: -8px;
+  }
+  .abt-con {
+padding: 25px 5px 0px 0px;
+  }
