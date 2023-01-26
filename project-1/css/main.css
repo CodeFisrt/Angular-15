@@ -2,7 +2,9 @@
     background-color: rgb(0, 0, 0);
 
 }
-
+.text-1 a {
+    text-decoration: none;
+}
 
 .fixed-top {
     background-color: black;
@@ -17,7 +19,8 @@
 
 .camera-div {
     color: #27aa78;
-    font-size: 35px
+    font-size: 35px;
+    text-decoration: none;
 }
 
 .photo-text {
@@ -48,6 +51,7 @@
 .nav-about {
    padding-top: 2px;
 }
+
 
 
 .icon-div {
@@ -114,6 +118,7 @@
     transition: 0.3s;
     color: #fff;
     background: #27aa78;
+    text-decoration: none;
 
 }
 
@@ -160,3 +165,26 @@
 }
 
 /*-------about.css---------*/
+.div-text {
+    
+    color: #fff;
+    margin-top: 150px;
+    
+    
+}
+.div-text h2 {
+    font-size: 70px;
+    font-family: cardo sans-serif;
+
+
+}
+.div-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    line-height: 30px;
+    font-weight: ;
+    
+
+}
