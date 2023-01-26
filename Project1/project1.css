@@ -1,0 +1,105 @@
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+.container{
+    margin: 0px 100px;
+    padding-left:100px;
+    padding-right: 150px;
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.special{
+    color: red;
+    font-size: 31px;
+    font-weight: bold;
+    
+}
+.navbarname{
+    color: rgb(245, 243, 242);
+    font-size: 31px;
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+.navbar{
+    padding: 0%;
+}
+.nav-link1{
+    color: red;
+    padding: 15px 20px 15px 8px;
+    text-decoration: none;
+
+}
+.nav-link{
+    color: white;
+    padding: 15px 20px 15px 8px;
+
+}
+.nav1{
+    padding:15px 10px 10px 10px;
+    }
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.src{
+    width: 100%;
+}
+
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/stars-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-link:hover{
+    color: red;
+}
+.heading{
+    margin-top: 160px;
+    margin-left: 100px;
+    padding: 0px 100px 0px 100px;
+    letter-spacing: 1px;
+}
+.heading1{
+    color: white;
+    font-size:48px ;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+strong{
+    color: red;
+}
+.heading2{
+    margin-bottom: 27px;
+    font-size: 24px;
+    color: white; 
+    margin-top: 10px;
+}
+.btn{
+    color:white;
+    transition: ease-in-out;
+    background-color: red;
+     padding: 12px 35px;
+    border-radius: 3px; 
+}
+.about{
+    padding: 100px 0px ;
+    margin-left: 186px;
+}
+.img{
+    padding: 0px 15px;
+    height: 470px;
+    width: 340px;
+}
+h2{
+    margin: 10px 10px 5px;
+    font-weight: bolder;
+    font-size: 30px;
+}
