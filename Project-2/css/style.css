@@ -1,0 +1,73 @@
+.conect,
+.info {
+    box-shadow: 0 2px 4px 0 gray, 0 4px 16px 0 gray;
+    width: fit-content;
+}
+
+#bg-color {
+    background-color: #ebe2e2;
+}
+
+.skill {
+    box-shadow: 0 2px 4px 0 gray, 0 4px 16px 0 gray;
+    width: 600px;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 gray, 0 4px 16px 0 gray;
+    width: 300px;
+    height: 350px;
+}
+
+i {
+    color: rgb(131 58 180);
+    font-size: 60px;
+}
+
+.intro {
+    width: fit-content;
+}
+
+#icon {
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: orange;
+}
+
+.Resume:hover {
+    background-color: rgb(0 120 167);
+    color: white;
+}
+
+.Resume {
+    color: rgb(0 120 167);
+    border-color: rgb(0 120 167);
+}
+
+.btn-outline-info:hover {
+    background-color: white;
+    color: rgb(131 58 180);
+    border-color: rgb(131 58 180);
+}
+
+.btn-outline-info {
+    background-color: rgb(131 58 180);
+    color: white;
+}
+
+.btn-primary {
+    background-color: rgb(42, 133, 168);
+    border-color: rgb(42, 133, 168);
+}
+
+.btn-primary:hover {
+    background-color: rgb(131 58 180);
+}
+
+.navbar-brand {
+    color: rgb(131 58 180);
+}
+
+#icon:hover {
+    color: rgb(131 58 180);
+}
