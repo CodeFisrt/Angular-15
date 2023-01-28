@@ -1,136 +1,40 @@
-@media only screen and (min-width:200px) and (max-width:567px) {
-    .navbar .navbar-brand {
-        position: sticky;
+@media only screen and (max-width: 992px) {
+    .nav-navbar-light {
+        background: #000000 !important;
+        position: relative;
+        top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-    .navbar-brand:after {
-        left: -12px;
+    .nav-navbar-light .navbar-brand {
+        color: #fff;
     }
 
-    .navbar .nav-item {
-        padding: 12px 0px 2px 25px;
+    .navbar-brand span {
+        color: #fff;
+    }
+
+    .nav-navbar-light .navbar-nav>.nav-item>.nav-link {
+        padding-left: 0;
+        padding-right: 0;
+        color: #fff;
+        font-size: 20px;
+        line-height: 46px;
     }
 
     .social-menu ul {
         position: absolute;
-        top: 29%;
-        left: 75%;
+        top: 23%;
+        left: 72%;
     }
 
     .heading-text {
-        margin: 0px 0px 0px 0px;
+        margin: 40px 0px 0px 0px;
     }
 
-    .about-me {
-        margin: 296px 0px 0px 0px;
-    }
 
-    .about-info li {
-        padding: 0px 0px 0px 7px;
-    }
-
-    .card-box {
-        padding: 0px 0px 39px 61px;
-    }
-
-    .container2 .card {
-        position: relative;
-        width: 100%;
-        right: 23px;
-        /* left: 0px; */
-    }
-
-    .progress-box {
-        padding: 0px 0px 0px 40px;
-    }
-
-    .about-box {
-        padding: 0px 0px 0px 20px;
-    }
-
-    .btn-cv {
-        padding: 0px 0px 0px 32px;
-    }
-
-    .resume-wrap {
-        padding: 0px 21px 0px 88px;
-    }
-}
-
-@media only screen and (min-width:567px) and (max-width:992px) {
-    .navbar .navbar-brand {
-        position: sticky;
-    }
-
-    .navbar-brand:after {
-        left: -12px;
-    }
-
-    .social-menu ul {
-        position: absolute;
-        top: 29%;
-        left: 75%;
-    }
-
-    .about-me {
-        margin: 296px 0px 0px 0px;
-    }
-
-    .about-info li {
-        padding: 0px 0px 0px 31px;
-    }
-
-    .card-box {
-        padding: 0px 0px 37px 90px;
-    }
-
-    .container2 .card {
-        position: relative;
-        width: 100%;
-        right: 41px;
-    }
-}
-
-@media only screen and (min-width:992px) and (max-width:1200px) {
-    .social-menu ul {
-        position: absolute;
-        top: 44%;
-        left: 87%;
-    }
-
-    .about-info li {
-        padding: 0px 0px 0px 50px;
-    }
-
-    .container2 .card {
-        width: 210px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container2 .card {
-        position: relative;
-        left: -5px;
-    }
-
-    .about-me {
-        margin: 296px 0px 0px 21px;
-    }
-
-    .progress-box {
-        padding: 0px 0px 0px 54px;
-    }
-
-    .about-box {
-        padding: 0px 0px 0px 61px;
-    }
-
-    .btn-cv {
-        padding: 0px 0px 0px 75px;
-    }
-
-    .resume-wrap {
-        padding: 0px 0px 0px 35px;
-    }
 
 }
