@@ -24,7 +24,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Revan's Portfolio</a>
+                            <a class="navbar-brand" href="#Home" onclick="scrollToSection('Home')" > Revan's Portfolio</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -34,17 +34,18 @@
                                 <div class=" ms-auto">
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                            <a class="nav-link active mx-3" aria-current="page" href="#">
+                                            <a class="nav-link active mx-3" aria-current="page" href="#About" onclick="scrollToSection('About')" >
                                                 <b>About</b></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active mx-3" href="#"> <b>Portfolio</b> </a>
+                                            <a class="nav-link active mx-3" href="#Portfolio" onclick="scrollToSection('Portfolio')" >
+                                                <b>Portfolio</b> </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active mx-3" href="#"> <b>Skills</b></a>
+                                            <a class="nav-link active mx-3" href="#Skills" onclick="scrollToSection('Skills')" > <b>Skills</b></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active mx-3" href="#"> <b>Contact</b></a>
+                                            <a class="nav-link active mx-3" href="#Contact" onclick="scrollToSection('Contact')" > <b>Contact</b></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -54,9 +55,12 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- page one -->
 
+    <!-- page one -->
+
+    <section id="Home">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-7 col-lg-6">
@@ -72,7 +76,8 @@
                             <button type="button" class="btn btn-outline-secondary Resume w-75">Downlod Resume</button>
                         </div>
                         <div class="btn-bg">
-                            <button type="button" class="btn btn-outline-info w-75">Let's Talk</button>
+                            <a href="#Contact" onclick="scrollToSection('Contact')" ><button type="button" class="btn btn-outline-info w-75">Let's Talk</button></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -100,9 +105,11 @@
         </div>
     </section>
 
+
+
     <!-- page two -->
 
-    <section>
+    <section id="About">
         <div class="container">
             <div class="row">
                 <div class="info mt-5 animate__animated animate__backInDown animate__delay-2s">
@@ -133,7 +140,7 @@
 
     <!-- Page three -->
 
-    <section>
+    <section id="Portfolio">
         <div class="container">
             <div class="row">
                 <div class="project">
@@ -185,7 +192,7 @@
 
     <!-- Page four -->
 
-    <section>
+    <section id="Skills">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 mt-5 mb-4">
@@ -220,8 +227,8 @@
     </section>
 
     <!-- end icon -->
-    
-    <section>
+
+    <section id="Contact">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 text-center my-5">
@@ -241,6 +248,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+        <script>
+            function scrollToSection(id) {
+              // Get the element with the specified ID
+              var section = document.getElementById(id);
+          
+              // Scroll to the top of the element
+              section.scrollIntoView({ behavior: 'smooth' });
+            }
+          </script>
 
 </body>
 
