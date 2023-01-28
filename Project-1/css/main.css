@@ -70,15 +70,21 @@ body {
   color: white;
   margin: 5px 0px;
 }
-.btn1{
+
+.btn1 {
   background-color: orangered;
+  font-weight: 300;
   
+
+}
+.btn1:hover {
+  background-color: #102a3c;
 }
 .list-wrap,
 .list-wrap2 {
   list-style: none;
-   margin: 0px -36px;
-  
+  margin: 0px -36px;
+
 }
 
 .head-section {
@@ -91,7 +97,7 @@ body {
 
 .button-div {
   text-align: center;
-
+  
 }
 
 .heading-seven {
@@ -104,25 +110,82 @@ body {
 .Completed {
   margin: 10px -36px;
 }
-.btn-div{
-  color: orangered;
-  font-size: 10px;
+.btn-all-div{
+  background-color: orangered;
 }
-.read-btn{
- align-items: flex-end;
- color: white;
- font-size: 15px;
+
+.btn-div{
+  background-color: #102039;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-div:hover {
+  background-color: orangered;
+}
+
+.intro-section{
+  display: inline;
+}
+.web-designer-img{
+  border-radius: 12px;
+  
+}
+
+.read-btn {
+  align-items: flex-end;
+  color: white;
+  font-size: 15px;
 }
 
 .img-text-wrap {
   text-align: center;
 }
+
+.form-bg-color {
+  background-color: rgb(6, 19, 25);
+ /* border-top: none;
+  border-right: none;
+  border-left: none;  */
+   outline: none;
+    border: 0; 
+  font-size: 20px;
+  width: 100%;
+  color:white;
+}
+
+
+
+
 .logo-img2 {
-  
+
   width: 150px;
 }
-.btext::before{
-  content:"Porichiti";
+
+.btext::before {
+  content: "Porichiti";
   color: orangered;
   font-size: 20x;
+}
+
+.overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
 }
