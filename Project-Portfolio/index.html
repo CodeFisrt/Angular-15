@@ -24,21 +24,20 @@
 <body>
     <!-- header section start -->
     <section id="header">
-        <nav class="navbar sticky-top navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg nav-navbar-light fixed-top">
             <div class="container">
                 <a class="navbar-brand " href="index.html">
                     <span>P</span>allavi</a>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                        <li class="nav-item active">
-                            <a class="nav-link " href="#home">Home </a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -73,7 +72,7 @@
     <section id="home">
         <div class="overlay"></div>
         <div class="container">
-            <div class="col-lg-8 col-md-6 w-100 p-5 heading-text ">
+            <div class="col-lg-8 col-md-6 col-12 w-100 p-5 heading-text ">
                 <div class="slider text-center">
                     <span class="sub-text">Hey! I am</span>
                     <h1 class="head-name">Pallavi Kene</h1>
@@ -87,7 +86,7 @@
         <div class="mouse">
             <a href="#resume" class="mouse-icon">
                 <div class="mouse-wheel"><i class="fa-solid fa-arrow-down-long animate__animated animate__slideInDown
-                        animate__infinite infinite animate__delay-2s	2s"></i>
+                            animate__infinite infinite animate__delay-2s	2s"></i>
                 </div>
             </a>
         </div>
@@ -95,43 +94,42 @@
     <!-- home section end -->
 
     <!-- about section start -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-12  about-me">
-                    <h1 class="text-about">ABOUT ME</h1>
-                    <p class="p-about">I have 6 month experience in Web design in developing
-                        responsive & interactive website in HTML,CSS,Bootstrap.
-                        Designing in photoshop,illustrator and hands-on experience
-                        adobe xd, increating wireframes,user flows & process flows ability
-                        to communicate & present ideas.</p>
-                </div>
-                <div class="row ">
-                    <div class="col-md-3 "></div>
-                    <div class="col-md-6 about-box ">
-                        <ul
-                            class="about-info  mt-4 px-md-0 px-2 list-unstyled shadow p-3 mb-5 bg-body-tertiary rounded ">
-                            <li class=" pt-3"><span>Name :</span> <span>Pallavi Kene</span></li>
-                            <li class=" pt-3"><span>Date of birth :</span> <span>February 17, 1999</span></li>
-                            <li class=" pt-3"><span>Gender :</span> <span>Female</span></li>
-                            <li class=" pt-3"><span>Address :</span> <span>Plot No. 450, Vinoba Bhave Nagar,
-                                    Nagpur</span></li>
-                            <li class=" pt-3"><span>Email :</span> <span>pallavikene26@gmail.com</span>
-                            </li>
-                            <li class=" pt-3"><span>Contact No : </span> <span>9284249219</span></li>
-                        </ul>
-                        <div class="col-md-3"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center btn-cv">
-                        <a href="https://drive.google.com/file/d/1A6b8ce0hOwbXYOFdK1anARqBu5AVlroE/view"
-                            target="_blank">
-                            <button type="button" class="btn btn-outline-primary me-2">DOWNLOAD CV</button>
-                        </a>
-                    </div>
-                </div>
+
+    <section id="about" class="py-5 pt-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 mx-auto  about-me">
+                <h1 class="text-about">ABOUT ME</h1>
+                <p class="p-about m-auto ">I have 6 month experience in Web design in developing
+                    responsive & interactive website in HTML,CSS,Bootstrap.
+                    Designing in photoshop,illustrator and hands-on experience
+                    adobe xd, in creating wireframes,user flows & process flows ability
+                    to communicate & present ideas..</p>
+
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 about-box ">
+                <ul
+                    class=" about-info mt-4 px-md-0 px-2 list-unstyled shadow p-3 mb-5 bg-body-tertiary rounded text-start">
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-3 "><span>Name :</span> <span>Pallavi Kene</span></li>
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-4"><span>Date of birth :</span> <span>February 17, 1999</span>
+                    </li>
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-4"><span>Gender :</span> <span>Female</span></li>
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-4"><span>Address :</span> <span>Plot No. 450, Vinoba Bhave
+                            Nagar,
+                            Nagpur</span></li>
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-4"><span>Email :</span> <span>pallavikene26@gmail.com</span>
+                    </li>
+                    <li class="ms-lg-5 ms-md-5 ms-sm-4 mt-4"><span>Contact No : </span> <span>9284249219</span></li>
+                </ul>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+
+        <div>
+            <a href="https://drive.google.com/file/d/1A6b8ce0hOwbXYOFdK1anARqBu5AVlroE/view" target="_blank"><button
+                    type="button" class="btn btn-outline-primary">DOWNLOAD CV</button></a>
         </div>
     </section>
     <!-- about section end -->
@@ -145,11 +143,11 @@
                         <ul>
                             <li><a href="#education">Education</a></li>
                             <li><a href="#experience">Experience</a></li>
-                            <li><a href="#professional-skill">Professional Skills</a></li>
+                            <li><a href="#skill">Skills</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-9 pt-5">
+                <div class="col-md-9 col-sm-12 pt-5">
                     <div id="education" class="page one">
                         <h2 class="heading">Education</h2>
                         <div class="resume-wrap d-flex ">
@@ -200,126 +198,72 @@
                             </div>
                         </div>
                     </div>
-                    <div id="professional-skill" class="page three pt-3">
+                    <div id="skill" class="page three pt-3">
                         <h2 class="heading">Skills</h2>
-                        <div class="porcentage">
-                            <div class="container2">
-                                <div class="row ">
-                                    <div class=" col-lg-4 card-box ">
-                                        <div class="card bg-white rounded-lg shadow-lg ps-sm-2">
-                                            <div class="box">
-                                                <div class="percent">
-                                                    <svg>
-                                                        <circle cx="70" cy="70" r="70" />
-                                                        <circle cx="70" cy="70" r="70" />
-                                                    </svg>
-                                                    <div class="number">
-                                                        <h2>90<span>%</span></h2>
-                                                    </div>
-                                                    <h3 class="pt-2">HTML</h3>
-                                                </div>
-                                            </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class=" col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/html.png" alt="HTML">
                                         </div>
+                                        <h3 class="h3-title">HTML</h3>
                                     </div>
-                                    <div class="col-lg-4 card-box ">
-                                        <div class="card bg-white rounded-lg shadow-lg">
-                                            <div class="box">
-                                                <div class="percent">
-                                                    <svg>
-                                                        <circle cx="70" cy="70" r="70" />
-                                                        <circle cx="70" cy="70" r="70" />
-                                                    </svg>
-                                                    <div class="number">
-                                                        <h2>80<span>%</span></h2>
-                                                    </div>
-                                                    <h3 class="pt-2">CSS</h3>
-                                                </div>
-                                            </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 wow fadeInDown" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/css.png" alt="HTML">
                                         </div>
+                                        <h3 class="h3-title">CSS</h3>
                                     </div>
-                                    <div class="col-lg-4 card-box">
-                                        <div class="card bg-white rounded-lg shadow-lg">
-                                            <div class="box">
-                                                <div class="percent">
-                                                    <svg>
-                                                        <circle cx="70" cy="70" r="70" />
-                                                        <circle cx="70" cy="70" r="70" />
-                                                    </svg>
-                                                    <div class="number">
-                                                        <h2>70<span>%</span></h2>
-                                                    </div>
-                                                    <h3 class="pt-2">Bootstrap</h3>
-                                                </div>
-                                            </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/bootstrap.png" alt="HTML">
                                         </div>
+                                        <h3 class="h3-title">BOOTSTRAP</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5 progress-box  ">
-                        <div class="col-md-6 ">
-                            <div class="progress-wrap ">
-                                <h3>Java Script</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                        <span>%</span>
+                                <div class=" col-lg-3 col-md-4 wow fadeInDown" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/java-script.png" alt="HTML">
+                                        </div>
+                                        <h3 class="h3-title">JAVASCRIPT</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <div class="progress-wrap ">
-                                <h3>Angular</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                        <span>%</span>
+                                <div class=" col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/angular.png" alt="HTML">
+                                        </div>
+                                        <h3 class="h3-title">ANGULAR</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="progress-wrap ">
-                                <h3>Git</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                        <span>%</span>
+                                <div class=" col-lg-3 col-md-4 wow fadeInDown" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/figma.png" alt="HTML">
+                                        </div>
+                                        <h3 class="h3-title">FIGMA</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="progress-wrap ">
-                                <h3>Adobe XD</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                        <span>%</span>
+                                <div class=" col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/xd.png" alt="HTML">
+                                        </div>
+                                        <h3 class="h3-title">ADOBE XD</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <div class="progress-wrap ">
-                                <h3>Photoshop</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                        <span>%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <div class="progress-wrap ">
-                                <h3>Figma</h3>
-                                <div class="progress">
-                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        <span>%</span>
+                                <div class=" col-lg-3 col-md-4 wow fadeInDown" data-wow-delay=".5s">
+                                    <div class="my-tool-box-one">
+                                        <div class="my-tool-icon-one">
+                                            <img src="assets/image/photoshop.png" alt="HTML">
+                                        </div>
+                                        <h3 class="h3-title">PHOTOSHOP</h3>
                                     </div>
                                 </div>
                             </div>
@@ -327,67 +271,68 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
     </section>
+
     <!-- resume section end -->
 
     <!-- project section start -->
+
     <section id="project" class="py-5 text-center container">
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="project-head">Project</h1>
             </div>
         </div>
-        <div class="album py-4 bg-light">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow project-box">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Live
-                                            Demo</button>
-                                        <button type="button" class="btn btn-sm btn-outline-primary">GitHub</button>
-                                    </div>
-                                </div>
-                            </div>
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-4 col-lg-4 grid-item art">
+                    <div class="card mb-4 rounded-3 border border-0 shadow">
+                        <div class="card-header card-head py-3">
+                            <h5 class="my-0 fw-normal text-black">Project-1</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title pricing-card-title">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Corporis, sint! Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eaque, dolore!loremfa-rotate-180 Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo, id!
+                            </h6>
+                            <a href="#"><button type="button"
+                                    class=" mt-2 w-50 btn btn-md btn-outline-primary">GitHub</button></a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow project-box">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Live
-                                            Demo</button>
-                                        <button type="button" class="btn btn-sm btn-outline-primary">GitHub</button>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+
+                <div class=" col-sm-12 col-md-4 col-lg-4 grid-item art">
+                    <div class="card mb-4 rounded-3 border border-0 shadow">
+                        <div class="card-header card-head py-3">
+                            <h5 class="my-0 fw-normal text-black">Project-2</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title pricing-card-title">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Corporis, sint! Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eaque, dolore!loremfa-rotate-180 Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo, id!
+                            </h6>
+                            <a href="#"><button type="button"
+                                    class=" mt-2 w-50 btn btn-md btn-outline-primary">GitHub</button></a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow project-box">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Live
-                                            Demo</button>
-                                        <button type="button" class="btn btn-sm btn-outline-primary">GitHub</button>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+
+                <div class=" col-sm-12 col-md-4 col-lg-4 grid-item art">
+                    <div class="card mb-4 rounded-3 border border-0 shadow">
+                        <div class="card-header card-head py-3">
+                            <h5 class="my-0 fw-normal text-black">Project-3</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title pricing-card-title">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Corporis, sint! Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Eaque, dolore!loremfa-rotate-180 Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Explicabo, id!
+                            </h6>
+                            <a href="#">
+                                <button type="button"
+                                    class="mt-2 w-50 btn btn-md btn-outline-primary">GitHub</button></a>
                         </div>
                     </div>
                 </div>
@@ -397,12 +342,12 @@
     <!-- project section end -->
 
     <!-- freelance section start -->
-    <section id="freelance" class="hire-section  hire-img" style="background-image: url(assets/image/freelancing.jpg)">
+    <section id="freelance" class="hire-section  hire-img ">
         <div class=" hire-overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="pt-3">I'm <span>Available</span> for freelancing</h2>
+                <div class="col-12 text-center">
+                    <h2 class="pt-3 hire-text">I'm <span>Available</span> for freelancing</h2>
                     <p class=" mt-5 mb-0"><a
                             href="https://drive.google.com/file/d/1A6b8ce0hOwbXYOFdK1anARqBu5AVlroE/view"
                             target="_blank"><button class="btn btn-primary text-white ">Hire me </button></a>
@@ -415,38 +360,85 @@
     <!-- freelance section end -->
 
     <!-- contact section start -->
-    <section id="contact">
-        <div class="container pt-5">
-            <div class="row ">
-                <h1 class="contact-me ">Contact Me</h1>
+    <section id="contact" class="section contactus-section border-top-g mt-5">
+        <div class="container">
+            <div class="row justify-content-center section-heading">
+                <div class="col-lg-6 text-center">
+                    <h3 class="contact-me">Contact Me</h3>
+                </div>
             </div>
-            <div class="row input-container  p-3">
-                <div class="col-xs-12">
-                    <div class="styled-input wide shadow">
-                        <input type="text" required />
-                        <label>Name</label>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contact-form" method="POST">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input name="Name" id="name" placeholder="Name *" class="form-control"
+                                            type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input name="Email" id="email" placeholder="Email *" class="form-control"
+                                            type="email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input name="Subject" id="subject" placeholder="Subject *" class="form-control"
+                                            type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" placeholder="Your message *" rows="5"
+                                            class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="send">
+                                        <button class="btn btn-outline-primary link-effect" type="button" value="Send"
+                                            onclick="send_mail() ">
+                                            SEND MESSAGE <i class="bi bi-arrow-up-right"></i></button>
+                                        <span id="suce_message" class="text-success" style="display: none">Message Sent
+                                            Successfully</span>
+                                        <span id="err_message" class="text-danger" style="display: none">Message Sending
+                                            Failed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input  shadow">
-                        <input type="text" required />
-                        <label>Email</label>
+            </div>
+            <div class="row gy-4 mt-5 text-center justify-content-center contact-info">
+                <div class="col-md-4">
+                    <div class="contact-name">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt icon-fas"></i>
+                        </div>
+                        <h5 class="text-black">My Address</h5>
+                        <p> Vinoba Bhave Nagar, Nagpur</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input  shadow" style="float:right;">
-                        <input type="text" required />
-                        <label>Phone Number</label>
+                <div class="col-md-4">
+                    <div class="contact-name">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt icon-fas"></i>
+                        </div>
+                        <h5 class="text-black">Mail ID</h5>
+                        <p>pallavikene26@gmail.com</p>
                     </div>
                 </div>
-                <div class="col-xs-12">
-                    <div class="styled-input wide  shadow">
-                        <textarea required></textarea>
-                        <label>Message</label>
+                <div class="col-md-4">
+                    <div class="contact-name">
+                        <div class="icon">
+                            <i class="fas fa-envelope icon-fas"></i>
+                        </div>
+                        <h5 class="text-black">Phone</h5>
+                        <p>Phone: +91 9284249219</p>
                     </div>
-                </div>
-                <div class="col-xs-12">
-                    <button type="button" class="btn btn-outline-primary me-2 ">SEND MESSAGE</button>
                 </div>
             </div>
         </div>
@@ -454,24 +446,35 @@
     <!-- contact section end -->
 
     <!-- footer section start -->
-    <section>
-        <footer class="footer mt-auto py-3 bg-black text-center ">
-            <div class="container">
-                <span class="text-white ">© Pallavi Kene</span>
-            </div>
-        </footer>
-    </section>
-    <!-- footer section end -->
+    <footer class="footer bg-black text-white py-2 mt-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-2">
+                    <div class="nav justify-content-center justify-content-md-start ">
+                        <a href="https://github.com/pallavikene" target="blank"><i
+                                class="fab fa-facebook-f me-3 text-white icon-fab"></i></a>
+                        <a href="https://www.instagram.com/pallavi_kene/" target="blank"><i
+                                class="fab fa-instagram me-3 text-white icon-fab"></i></a>
+                        <a href="https://www.linkedin.com/in/pallavi-kene-37533ab2/" target="blank"><i
+                                class="fab fa-linkedin-in me-3 text-white icon-fab"></i></a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-        </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    </div>
+                </div>
+                <div class="col-md-6 py-2 text-center text-md-end">
+                    <p class="m-0">© Copyright All Right Reserved And Developed By Pallavi Kene</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+</body>
