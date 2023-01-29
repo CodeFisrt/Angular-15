@@ -6,25 +6,7 @@
 }
 
 .side-bar {
-  position: absolute;
-}
-
-/* #spin {
-    color:red;
-  }
-  #spin:after {
-    content:"";
-    animation: spin 5s linear infinite;
-  }
-  @keyframes spin {
-    0% { content:"RANJEET MISAL";}
-    20% { content:"DEVELOPER";}
-    40% { content:"FROM INDIA";}
-  }
-  @keyframes mymove {
-    from {right: 20px;}
-    to {left: 0px}
-  } */
+  position: absolute; }
 .profile-link {
   display: grid;
 }
@@ -43,7 +25,6 @@
   display:none;
   width: 100%;
   display: grid;
-  margin-left: 320px;
   background-color: white;
   }
   
@@ -51,10 +32,33 @@
   display:block;
   }
   .abt-img {
-  width: 102%;
+  width: 50%;
   margin-left: -8px;
   margin-top: -8px;
   }
-  .abt-con {
-padding: 25px 5px 0px 0px;
+  .personal-info{
+    justify-items: center;
+    display: grid;
+    background-color: white;
   }
+  .info-btn {
+    justify-items: center;
+    text-align: center;
+  }
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 5s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"RANJEET MISAL";}
+    20% { content:"DEVELOPER";}
+    40% { content:"FROM INDIA";}
+  }
+  @keyframes mymove {
+    from {right: 20px;}
+    to {left: 0px}
+  }
+
