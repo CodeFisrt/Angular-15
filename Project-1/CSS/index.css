@@ -71,7 +71,7 @@
   .fontsty {
     font-family: 'Quicksand', sans-serif;
   }
-.skill {    font-size: 15px;
+.skill, .resume, .services {    font-size: 15px;
   color: #1a1a1ad6;
   padding-bottom: 10px;
   border-bottom: 1px solid #66666666;}
@@ -83,9 +83,19 @@
 .dots {
   height: 8px;
   width: 8px;
-  background-color: rgba(62, 128, 189, 0.767);
+  background-color: rgba(70, 95, 235, 0.904);
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
   
+}
+#service-logo {
+  border-radius: 50%;
+  background-color: rgba(70, 165, 243, 0.842);
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 25px;
 }
