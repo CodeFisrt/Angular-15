@@ -1,5 +1,7 @@
 body{
-    font-family: 'Poppins', sans-serif;;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     margin: 0px 100px;
@@ -40,12 +42,15 @@ body{
 .nav1{
     padding:15px 10px 10px 10px;
     }
-.fixed-top{
+/* .fixed-top{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-}
+} */
+.scroll{
+    background-color: black;
+} 
 .src{
     width: 100%;
 }
@@ -61,16 +66,16 @@ body{
     color: red;
 }
 .heading{
-    margin-top: 160px;
+    /* margin-top: 160px; */
     margin-left: 100px;
-    padding: 0px 100px 0px 100px;
+    padding: 240px 100px 0px 100px;
     letter-spacing: 1px;
 }
 .heading1{
     color: white;
     font-size:48px ;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 29px;
 
 }
 strong{
@@ -84,17 +89,18 @@ strong{
 }
 .btn{
     color:white;
-    transition: ease-in-out;
+    /* transition: ease-in-out; */
     background-color: red;
      padding: 12px 35px;
     border-radius: 3px; 
+    margin-right: 10px;
 }
 .about{
     padding: 100px 0px ;
-    margin-left: 186px;
+   
 }
 .img{
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
     height: 470px;
     width: 340px;
 }
@@ -102,4 +108,121 @@ h2{
     margin: 10px 10px 5px;
     font-weight: bolder;
     font-size: 30px;
+}
+.col-8{
+    padding: 0px 15px;
+}
+.about1{
+    margin: 22px 39px 10px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.row{
+    margin:0px 186px 0px 186px;
+}
+.about2{
+    margin: 22px 39px 10px 10px;
+    /*   */
+}
+.buttonw{
+    padding-top:39px ;
+    
+}
+.para1{
+    text-align: center;
+    margin: 15px 0px 15px;
+    padding: 0px 0px 10px;
+}
+.skills{
+    text-align: center; 
+}
+ .progress{
+    height: 7px;
+    border-radius: 1px;
+} 
+label{
+    margin-top: 17px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.line{
+    position: relative;
+    left: calc(50% - 25px);
+    height: 3px;
+    width: 55px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+/* .percentage{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2;
+} */
+.skill{
+    /* text-align: center; */
+    padding-bottom: 100px;
+}
+
+.services{
+    padding: 100px 0px 100px;
+    background-color: rgb(221, 221, 221, 0.4);
+    
+}
+.shead{
+    margin-bottom: 10px;
+    font-weight:800;
+    font-size: 30px;
+     text-align: center;
+     letter-spacing: 1px;
+}
+.para2{
+    
+    text-align: center;
+    margin: 15px 0px 15px;
+    padding: 0px 0px 10px;
+    font-weight: 100;
+    font-size: 14px;
+     color: #333;
+    letter-spacing: 1px;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    margin: 50px 110px 20px;
+    
+}
+.card-title{
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-body{
+    margin-bottom: 40px;
+}
+.col-3{
+    margin: 10px 0px 10px;
+}
+/* .card:h{
+    color: red;
+
+} */
+.Portfolio{
+    padding: 100px 0px 100px;
+}
+.shead1{
+    margin-bottom: 10px;
+    font-weight:800;
+    font-size: 30px;
+     text-align: center;
+}
+.aimg{
+    height: 350px;
+    width: 350px;
+    padding:15px 0px;
 }
