@@ -4,6 +4,12 @@
   margin-top: 60px;
   margin-left: 70px;
 }
+.btn-expand {
+  text-transform: uppercase;
+  text-decoration: auto;
+  color: rgb(36, 35, 35);
+  font-size: 12px;
+}
 
 .side-bar {
   position: absolute; }
@@ -32,21 +38,22 @@
   display:block;
   }
   .abt-img {
-  width: 50%;
+  width: 102.2%;
   margin-left: -8px;
   margin-top: -8px;
   }
   .personal-info{
     justify-items: center;
     display: grid;
-    background-color: white;
+    background-color: transparent;
   }
   .info-btn {
     justify-items: center;
     text-align: center;
+    background-color: transparent;
   }
   #spin {
-    color:red;
+    color:rgba(122, 148, 235, 0.548);
   }
   #spin:after {
     content:"";
@@ -61,4 +68,24 @@
     from {right: 20px;}
     to {left: 0px}
   }
-
+  .fontsty {
+    font-family: 'Quicksand', sans-serif;
+  }
+.skill {    font-size: 15px;
+  color: #1a1a1ad6;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #66666666;}
+.skill-value {
+  padding-bottom: 10px;
+  color: #666666c7;
+  font-style: italic;
+}
+.dots {
+  height: 8px;
+  width: 8px;
+  background-color: rgba(62, 128, 189, 0.767);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  
+}
