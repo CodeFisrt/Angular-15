@@ -1,5 +1,5 @@
 .main-body {
-    background-color: rgb(0, 0, 0);
+   background-color: rgb(0, 0, 0);
 
 }
 .text-1 a {
@@ -54,12 +54,14 @@
 
 
 
-.icon-div {
+.icon-div  {
     font-size: 20px;
-    float: right;
-    color: rgba(255, 255, 255, 0.6);
-    letter-spacing: 10px;
+    /* float: right; */
+   letter-spacing: 10px;
 
+}
+.icon-div a {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .jenny-wilson-text {
@@ -70,11 +72,12 @@
 .jenny-wilson-text h1 {
 
     color: #fff;
-    font-family: cardo sans-serif;
+    font-family: cardo italic;
     margin: 0 0 10px 0;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: -0.012em;
+    
 
 
 }
@@ -109,7 +112,7 @@
 .btn-div a {
     font-family: "inter", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     display: inline-block;
     padding: 15px 47px;
     border-radius: 7px;
@@ -148,10 +151,10 @@
 .footer-div {
     color: rgba(255, 255, 255, 0.8);
     margin-top: 80px;
-    padding-left: 600px;
+    /* padding-left: 600px; */
     line-height: 10px;
     font-size: 17px;
-
+    font-family:arial;
 
 
 }
@@ -187,4 +190,233 @@
     font-weight: ;
     
 
+}
+.div-text  a {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 47px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background: #27aa78;
+    text-decoration: none;
+
+
+}
+.about-img {
+    width: 450px;
+    margin-left: 170px;  
+}
+@media(max-width:667px){
+    .about-img{
+        margin-left:30px;
+    }
+}
+.add-main{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-text{
+    color: #fff;
+    
+}
+.about-text h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #28aa78;
+}
+.div-italic{
+    font-style:italic !important;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.text-add ul{
+    font-size: 20px;
+    list-style: none;
+    padding-right: 20px;
+    line-height: 50px;
+    
+    
+}
+.text-add-2 ul{
+    font-size: 20px;
+    list-style: none;
+    padding-right: 20px;
+    line-height: 50px;
+    margin-right: 30px;
+
+}
+.text-add-2{
+    margin-left: 0px;
+}
+.div-para p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-size: 20px;
+}
+.text-add ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color:#27a474;
+    line-height: 0;
+  
+}
+.text-add-2 ul i {
+    font-size: 15px;
+    
+    color:#27a474;
+    line-height: 0;
+}
+.main-section{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.section-header h2{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 200px;
+}
+.section-header h2::after{
+    content: "";
+width: 120px;
+height: 1px;
+display: inline-block;
+background: #5bd9a9;
+margin: 4px 10px;
+
+}
+.section-header p{
+    margin: 0;
+font-size: 40px;
+font-weight: 700;
+font-family:cardo sans-serif;
+color: #fff
+
+}
+
+
+
+
+
+
+
+/* ---------------gallary.css--------------*/
+.nature-text h1 {
+    color:#fff;
+    font-size: 70px;
+    margin-top: 150px;
+    font-family: cardo sans-serif;
+}
+.nature-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+}
+
+
+/*---------------------contect.ss*/
+.div-location i{
+    font-size: 20px;
+color:#27a474;
+float: left;
+width: 44px;
+height: 44px;
+background: #222425;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+margin-right: 15px;
+}
+.div-location i:hover{
+    color: white;
+background-color:#27a474;
+
+}
+.div-loc h4{
+    padding: 0;
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 5px;
+color: rgba(255, 255, 255, 0.5);
+}
+.div-loc p{
+    color: #fff;
+}
+.div-loc span {
+    margin-left:58px;
+}
+.main-div-loc {
+    /* margin-left: 200px; */
+    /* margin-top: 60px; */
+}
+.div-form input{
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+    background-color: #18191a;
+    border: 1px solid #2e3133;
+    color: #fff;
+    height: 50px;
+    /* width: 600px; */
+  
+}
+.div-form{
+    border-radius: 4px;
+box-shadow: none;
+font-size: 14px;
+background-color: var(--color-secondary);
+border: 1px solid #2e3133;
+color: #fff;
+    
+}
+.btn-div .send-btn{
+    text-transform: lowercase;
+}
+
+/* -----------------services.css---------- */
+
+.card i{
+    font-size: 20px;
+color: #222425;
+float: left;
+width: 44px;
+height: 44px;
+background:#27a474 ;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+margin-right: 15px;
+}
+.card i:hover{
+    color:#27a474;
+background-color: white;
+}
+.card-body{
+    background-color: black;
+}
+ .card:hover{ 
+background-color:#27a474;
+}
+.div-rate h5{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
+.div-rate h4{
+    color: #fff;
+    font-size: 20px;
 }
