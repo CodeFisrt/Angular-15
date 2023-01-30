@@ -1,14 +1,14 @@
 .prof-pic {
   border-radius: 50%;
-  width: 50%;
+  width: 45%;
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .btn-expand {
   text-transform: uppercase;
   text-decoration: auto;
   color: rgb(36, 35, 35);
-  font-size: 12px;
+  font-size: 12.5px;
 }
 
 .side-bar {
