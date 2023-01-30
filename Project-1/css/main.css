@@ -5,9 +5,7 @@ body {
   background-color: rgb(6, 19, 25);
 }
 
-/* .logo-div{
-  height: 30px;
-} */
+/* header sectionc start*/ 
 
 .logo-img {
   width: 150px;
@@ -15,24 +13,24 @@ body {
 
 .sidenav {
   height: 100%;
-  /* 100% Full-height */
+  
   width: 0;
-  /* 0 width - change this with JavaScript */
+  
   position: fixed;
-  /* Stay in place */
+ 
   z-index: 1;
-  /* Stay on top */
+  
   top: 0;
-  /* Stay at the top */
+ 
   left: 0;
   background-color: #111;
-  /* Black*/
+ 
   overflow-x: hidden;
-  /* Disable horizontal scroll */
+  
   padding-top: 60px;
-  /* Place content 60px from the top */
+  
   transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */
+
 }
 
 /* The navigation menu links */
@@ -45,12 +43,13 @@ body {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -59,7 +58,7 @@ body {
   margin-left: 50px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main {
   transition: margin-left .5s;
   padding: 20px;
@@ -71,6 +70,21 @@ body {
   margin: 5px 0px;
 }
 
+
+/*introduction section start  */
+
+.introduction{
+  color: orangered;
+}
+
+/* About me section start */
+
+.list-wrap,
+.list-wrap2 {
+  list-style: none;
+  margin: 0px -36px;
+
+}
 .btn1 {
   background-color: orangered;
   font-weight: 300;
@@ -80,36 +94,32 @@ body {
 .btn1:hover {
   background-color: #102a3c;
 }
-.list-wrap,
-.list-wrap2 {
-  list-style: none;
-  margin: 0px -36px;
-
-}
-
-.head-section {
+/* third section  */
+.bg-img-div{
+  background-image: url('../img/counter_bg6.jpg');
   text-align: center;
 }
-
-.head-div {
-  text-align: center;
-}
-
-.button-div {
-  text-align: center;
-  
-}
-
-.heading-seven {
-  text-align: center;
-}
-
 .complete,
 .Global,
 .Success,
 .Completed {
   margin: 10px -36px;
 }
+
+/*  service and solution section   */
+.head-section {
+  text-align: center;
+}
+.img-text-wrap {
+  text-align: center;
+}
+
+
+/*  work section start */
+.head-div {
+  text-align: center;
+}
+
 .btn-all-div{
   background-color: orangered;
 }
@@ -120,29 +130,44 @@ body {
   color: white;
   border-radius: 10px;
 }
-
 .btn-div:hover {
   background-color: orangered;
 }
-
+.button-div {
+  text-align: center;
+  
+}
+/* TESTIMONIAL section start */
+.heading-seven {
+  text-align: center;
+}
 .intro-section{
   display: inline;
 }
+
 .web-designer-img{
   border-radius: 12px;
   
 }
-
-.read-btn {
-  align-items: flex-end;
-  color: white;
-  font-size: 15px;
+.icons-div-1{
+  background:none;
+  border: none;
 }
 
-.img-text-wrap {
-  text-align: center;
+/* Our Experience Allows section */
+ /* .brand-name1{
+position: absolute;
+top: -140px;
+background-color: green;
+
+ } */
+ .bg-video-section{
+  background-image: url('../img/video_bg6.jpg');
+  padding: 253px 36px;
 }
 
+
+/* contact form section */
 .form-bg-color {
   background-color: rgb(6, 19, 25);
  /* border-top: none;
@@ -154,9 +179,14 @@ body {
   width: 100%;
   color:white;
 }
+/* Update From Newsfeeds */
+.read-btn {
+  align-items: flex-end;
+  color: white;
+  font-size: 15px;
+}
 
-
-
+/* footer section */
 
 .logo-img2 {
 
@@ -168,6 +198,30 @@ body {
   color: orangered;
   font-size: 20x;
 }
+
+ i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+} 
+.icon-div i{
+  display: inline;
+  /* float: left;  */
+  width: 36px;
+  height: 36px;
+  border: 2px solid #909090;
+  border-radius: 20px;
+  margin-right: 10px; 
+
+}
+.social-div:hover{
+  background-color: orangered;
+} 
+
+
+
+
 
 .overlay {
   position: fixed;
@@ -189,3 +243,9 @@ body {
   cursor: pointer;
   /* Add a pointer on hover */
 }
+
+
+
+
+
+

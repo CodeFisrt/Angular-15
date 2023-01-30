@@ -17,13 +17,15 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="responsive.css">
 
 
 </head>
 
 <body>
+  <!-- header section start -->
   <section>
-    <header class="fixed-top">
+    <header class="">
       <nav class="navigation  ">
         <div class="container">
 
@@ -44,8 +46,9 @@
                 </div>
                 <!-- Use any element to open the sidenav -->
                 <a href="#" onclick="openNav()">
-                  <i class="fa-solid fa-bars menu-bar"></i></a>
+                  <i class="fa-solid fa-bars menu-bar icons-div-1"></i></a>
               </div>
+
             </div>
           </div>
         </div>
@@ -56,6 +59,8 @@
 
 
   </section>
+  <!-- header section end  -->
+
   <!-- <section>
     <div class="container">
       <div class="row px-4">
@@ -142,67 +147,73 @@
 
 
 
-
+  <!-- Introduction Section starts -->
   <section>
     <div class="container bg-black">
       <div class="row flex-row">
         <div class="col-4">
-          <img src="img/banner-img-5.png" alt="">
+          <img src="img/banner-img-5.png" class="img-fluid  my-4 px-3 mx-5" alt="">
         </div>
         <div class="col-8">
           <div class="content-wrap py-5 px-5 my-4 mx-5">
-            <h4 class="text-danger fs-4 py-3 mx-5">Introduction</h4>
-            <h1 class="text-white fs-1 py-1 mx-5">I'm a Freelance & Software Developer</h1>
-            <p class="text-white fs-4 py-2 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non
+            <h6 class=" introduction fs-5 py-0 mx-5">Introduction</h6>
+            <h1 class="text-white fs-2 py-0 mx-5">I'm a Freelance & Software Developer</h1>
+            <p class="text-white fs-5 py-0 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non
               a tempora! sit omnis
               distinctio? dfsff dfsafsf amr ilsore karoem</p>
-            <button type="button" class="btn  btn1 text-white  fw-1 py-2 px-5 mx-5 ">Download CV <i
-                class="fa-solid fa-download text-white"></i></button>
-            <a href="#" class="fs-3 text-white">About Me</a>
+            <button type="button" class="btn  btn1 text-white   py-2 px-3 mx-5  fw-bold">Download CV <i
+                class="fa-solid fa-download text-white icons-div-1"></i></button>
+            <a href="#" class="fs-3 text-white fw-bold ">About Me</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section>
+  <!-- Introduction section end -->
+
+
+  <!-- About me section start -->
+  <section class="py-5 my-5">
     <div class="container">
       <div class="row text-white py-5">
         <div class="col-6">
-          <div class="content py-4 fw-4">
-            <h1>About Me</h1>
+          <div class="content py-4">          
+
+            <h1 class="fw-semibold"> About Me</h1>
             <h2>I'm Abu Darda and Software Developer</h2>
-            <h4 class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+            <h5 class="py-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
+              ut
               labore et
-              dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.</h4>
+              dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.</h5>
           </div>
-          <div class="row text-white pt-0 mt-0  fw-4 d-flex">
+          <div class="row text-white pt-0 mt-0   d-flex">
 
             <div class="col-6  ">
               <ul class="list-wrap ">
-                <li> Birthday: 24.08.1996</li>
+                <li><strong>Birthday:</strong> 24.08.1996</li>
 
-                <li> City: Honululu</li>
-                <li> Study: MBA </li>
-                <li>Email: example@gmail.com</li>
-                <li>Website: example.com </li>
-                <li> Phone: +88078767943</li>
+                <li><strong> City:</strong> Honululu</li>
+                <li><strong>Study:</strong> MBA </li>
+                <li><strong>Email:</strong> example@gmail.com</li>
+                <li><strong>Website:</strong> example.com </li>
+                <li><strong> Phone:</strong> +88078767943</li>
               </ul>
             </div>
 
             <div class="col-6">
               <ul class="list-wrap2">
-                <li>Age: 25 </li>
-                <li> Hobby: Coding </li>
-                <li>Degree: BSc in CSE </li>
-                <li>Facebook: fb.com/eliane </li>
-                <li>Instagram: instagram.com/eliane </li>
-                <li>Linkedin: linkedin.com/eliane </li>
+                <li><strong>Age:</strong> 25 </li>
+                <li><strong> Hobby:</strong> Coding </li>
+                <li><strong> Degree:</strong> BSc in CSE </li>
+                <li><strong>Facebook:</strong> fb.com/eliane </li>
+                <li><strong>Instagram:</strong> instagram.com/eliane </li>
+                <li><strong> Linkedin:</strong> linkedin.com/eliane </li>
               </ul>
             </div>
           </div>
 
-          <button type="button" class="btn btn1 py-2 my-4 px-4 mx-0 fs-3 fw-2 text-white"> Learn More
-            <i class="fa-solid fa-arrow-right text-white"></i>
+          <button type="button" class="btn btn1 py-2 my-4 px-2 mx-0 fs-4 fw-bold text-white"> Learn More
+            <i class="fa-solid fa-arrow-right text-white icons-div-1"></i>
           </button>
         </div>
         <div class="col-6 px-5">
@@ -238,59 +249,67 @@
             </button>
           </div>
 
-          <!-- <img src="../Project-1/img/man-img.jpg" alt=""> -->
+
         </div>
       </div>
     </div>
   </section>
+  <!-- About me section end -->
+
+
+
+  <!-- Third section start -->
   <section>
-<div class="bg-img-div">
-  <img src="../Project-1/img/counter_bg6.jpg" class="img-fluid" alt="">
-</div>
-    <div class="container">
+    <div class="bg-img-div py-5 pb-1 my-5">
 
-      <div class="row pt-0 mt-0 py-5 my-5 px-5 my-5 align-middle">
-        <!-- <img src="../Project-1/img/wavy-dark-gray-texture.jpg " class="img-fluid" alt=""> -->
 
-        <div class="col-3">
+      <div class="container">
 
-          <div class="pc-review-left-shape">
+        <div class="row pt-0 mt-0 py-5 my-5 px-5 my-5 align-middle">
 
-            <!-- <img src="../Project-1/img/half-shape.png" class="img-fluid " alt="img"> -->
-            <div class="project-div">
-              <img src="../Project-1/img/img-1.png" alt="">
-              <h1 class="fs-2 fw-1 my-4 text-white">5670</h1>
-              <h6 class="complete fs-6 fw-1 my-4 text-white">COMPLETED PROJECTS</h6">
+          <div class="col-3">
+
+            <div class="pc-review-left-shape">
+
+              <!-- <img src="../Project-1/img/half-shape.png" class="img-fluid " alt="img"> -->
+              <div class="project-div">
+                <img src="../Project-1/img/img-1.png" alt="">
+                <h1 class="fs-2  my-4 text-white fw-bold"> 5670</h1>
+                <h6 class="complete fs-6 fw-1 my-4 text-white fw-bold">COMPLETED PROJECTS</h6>
+              </div>
             </div>
           </div>
+          <div class="col-3">
+            <img src="../Project-1/img/img-2.png" alt="">
+            <h1 class="fs-2  my-4 text-white fw-bold">5400 </h1>
+            <h6 class=" Global fs-6  my-4 text-white fw-bold">GLOBAL CUSTOMERS</h6>
+          </div>
+          <div class="col-3">
+            <img src="../Project-1/img/img-3.png" alt="">
+            <h1 class="fs-2  my-4 text-white fw-bold"> 760 </h1>
+            <h6 class=" Success fs-6 my-4 text-white fw-bold"> SUCCESS CASES</h6>
+          </div>
+          <div class="col-3">
+            <img src="../Project-1/img/img-4.png" alt="">
+            <h1 class="fs-2  my-4 text-white"> 778</h1>
+            <h6 class=" Completed fs-6  my-4 text-white fw-bold"> COMPLETED PROJECTS</h6>
+          </div>
         </div>
-        <div class="col-3">
-          <img src="../Project-1/img/img-2.png" alt="">
-          <h1 class="fs-2 fw-1 my-4 text-white">5400</h1>
-          <h6 class=" Global fs-6 fw-1 my-4 text-white">GLOBAL CUSTOMERS</h6">
-        </div>
-        <div class="col-3">
-          <img src="../Project-1/img/img-3.png" alt="">
-          <h1 class="fs-2 fw-1 my-4 text-white">760</h1>
-          <h6 class=" Success fs-6 fw-1 my-4 text-white">SUCCESS CASES</h6">
-        </div>
-        <div class="col-3">
-          <img src="../Project-1/img/img-4.png" alt="">
-          <h1 class="fs-2 fw-1 my-4 text-white">778</h1>
-          <h6 class=" Completed fs-6 fw-1 my-4 text-white">COMPLETED PROJECTS</h6>
-        </div>
+
       </div>
-
     </div>
-
   </section>
-  <section>
+  <!-- third section end -->
+
+  <!-- service and solution section start -->
+
+  <section class="py-5">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-12">
-          <div class="head-section text-white py-5 fw-3">
+          <div class="head-section text-white ">
             <h3>WHAT WE DO</h3>
-            <h2 class="fs-1 fw-1">Service And Solutions</h2>
+            <strong class="fs-1 fw-bold">Service And Solutions</strong>
           </div>
         </div>
       </div>
@@ -298,8 +317,8 @@
         <div class="col-4 border-end border-bottom py-4 ">
           <div class="img-text-wrap ">
             <img src="../Project-1/img/camera.png" class="" alt="">
-            <h3 class="text-white align-middle py-2">Photography</h3>
-            <p class="text-white"> Contrary to popular belief,
+            <h3 class="text-white align-middle py-3 fw-bold">Photography</h3>
+            <p class="text-white "> Contrary to popular belief,
               Lorem Ipsum is not simply random text.It has
               roots in a piece of classical.</p>
           </div>
@@ -308,7 +327,7 @@
         <div class="col-4 border-end border-bottom py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/photograph.png" alt="">
-            <h3 class="text-white py-2">Videography</h3>
+            <h3 class="text-white py-2 fw-bold">Videography</h3>
             <p class="text-white service-content-desp">Contrary to popular belief, Lorem Ipsum is not simply random
               text. It has roots in
               a piece of classical.
@@ -318,7 +337,7 @@
         <div class="col-4  border-bottom py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/eye.png" alt="">
-            <h3 class="text-white py-2">Photo Retouching</h3>
+            <h3 class="text-white py-3 fw-bold">Photo Retouching</h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
@@ -328,7 +347,7 @@
         <div class="col-4 border-end  py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/ul.png" alt="">
-            <h3 class="text-white py-2">Up Lightening</h3>
+            <h3 class="text-white py-2 fw-bold">Up Lightening </h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
@@ -338,7 +357,7 @@
         <div class="col-4 border-end  py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/arial.png" alt="">
-            <h3 class="text-white py-2"> Arial Photography</h3>
+            <h3 class="text-white py-2 fw-bold"> Arial Photography</h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
@@ -348,7 +367,7 @@
         <div class="col-4   py-4">
           <div class="img-text-wrap">
             <img src="../Project-1/img/color.png" alt="">
-            <h3 class="text-white py-2">Color Grading </h3>
+            <h3 class="text-white py-2 fw-bold">Color Grading </h3>
             <p class="text-white"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
               in
               a piece of classical.
@@ -359,13 +378,16 @@
 
     </div>
   </section>
+  <!-- service and solution section end -->
+
+  <!-- work section start -->
   <section>
     <div class="container">
       <div class="row">
         <div class="col-12 text-white  fw-1">
           <div class="head-div">
             <h4>MY WORKS</h4>
-            <h2>Exclusive Work Examples</h2>
+            <h2 class="fw-bold">Exclusive Work Examples </h2>
           </div>
         </div>
       </div>
@@ -374,11 +396,11 @@
       <div class="row">
         <div class="col-12">
           <div class="button-div py-4">
-            <button type="button" class="btn btn-all-div  fs-5 py-2 px-4">All</button>
-            <button type="button" class="btn btn-div  py-2 px-4">Model</button>
-            <button type="button" class="btn btn-div py-2  px-4">Photography</button>
-            <button type="button" class="btn btn-div py-2 px-4">Video</button>
-            <button type="button" class="btn btn-div py-2 px-4">Studio</button>
+            <button type="button" class="btn btn-all-div  fs-5 py-2 px-4 fw-bold">All</button>
+            <button type="button" class="btn btn-div  py-2 px-4 fw-bold">Model</button>
+            <button type="button" class="btn btn-div py-2  px-4 fw-bold">Photography</button>
+            <button type="button" class="btn btn-div py-2 px-4 fw-bold">Video</button>
+            <button type="button" class="btn btn-div py-2 px-4 fw-bold">Studio</button>
           </div>
         </div>
       </div>
@@ -423,63 +445,72 @@
     </div>
   </section>
 
+  <!-- work section end -->
+
+  <!-- TESTIMONIAL section start -->
   <section>
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="heading-seven text-white py-5">
             <h3>TESTIMONIAL</h3>
-            <h1>What Our Clients Say</h1>
+            <h1 class="fw-bold">What Our Clients Say</h1>
           </div>
         </div>
         <div class="row">
 
           <div class="col-4">
 
-            <div class="card  border border-secondary-subtl text-bg-dark mb-3" >
+            <div class="card  border border-secondary-subtl text-bg-dark mb-3">
               <div class="card-header  fs-3 d-flex ">
                 <img src="../Project-1/img/card-image-1.png" class="img-fluid  px-2 web-designer-img" alt="">
                 <div class="intro-section">
-                <h4 class="py-1 px-3 ">S. Wilkinson</h6> 
-                <h6 class=" px-3">Web Designer</h6>
-              </div>
+                  <h4 class="py-1 px-3 fw-bold">S. Wilkinson</h6>
+                    <h6 class=" px-3">Web Designer</h6>
+                </div>
               </div>
               <div class="card-body Lightening border-top">
-                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur
+                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left icons-div-1"></i> Lorem ipsum dolor sit amet,
+                  consectetur
                   adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right"></i></i> </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card  border text-bg-dark mb-3" >
-              <div class="card-header fs-3 d-flex "> <img src="../Project-1/img/card-image-1.png" class="img-fluid   px-2 web-designer-img" alt="">
-               <div class="intro-section1">
-                <h4 class="py-1 px-3"> S. Wilkinson </h4>
-                <h6 class=" px-3">Web Designer</h6>
-              </div>
-            </div>
-              <div class="card-body border-top ">
-                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right"></i></i> </p>
+                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right icons-div-1"></i> </p>
               </div>
             </div>
           </div>
           <div class="col-4">
             <div class="card  border text-bg-dark mb-3">
-              <div class="card-header fs-3 d-flex"> <img src="../Project-1/img/card-image-1.png" class="img-fluid  px-2 web-designer-img" alt="">
-                <div class="intro-section">
-                  <h4 class="py-1 px-3"> S. Wilkinson </h4>
+              <div class="card-header fs-3 d-flex "> <img src="../Project-1/img/card-image-1.png"
+                  class="img-fluid   px-2 web-designer-img" alt="">
+                <div class="intro-section1">
+                  <h4 class="py-1 px-3 fw-bold"> S. Wilkinson </h4>
                   <h6 class=" px-3">Web Designer</h6>
-                </div></div>
-              <div class="card-body border-top">
-                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur
+                </div>
+              </div>
+              <div class="card-body border-top ">
+                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left icons-div-1"></i> Lorem ipsum dolor sit amet,
+                  consectetur
                   adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right"></i></i> </p>
+                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right icons-div-1"></i></i> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card  border text-bg-dark mb-3">
+              <div class="card-header fs-3 d-flex"> <img src="../Project-1/img/card-image-1.png"
+                  class="img-fluid  px-2 web-designer-img" alt="">
+                <div class="intro-section">
+                  <h4 class="py-1 px-3 fw-bold"> S. Wilkinson </h4>
+                  <h6 class=" px-3">Web Designer</h6>
+                </div>
+              </div>
+              <div class="card-body border-top">
+                <p class="card-text py-3 px-3"><i class="fa-solid fa-quote-left icons-div-1"></i> Lorem ipsum dolor sit amet,
+                  consectetur
+                  adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                  viverra maecenas accumsan lacus vel facilisis..<i class="fa-solid fa-quote-right icons-div-1 "></i>
               </div>
             </div>
           </div>
@@ -487,34 +518,35 @@
       </div>
     </div>
   </section>
+  <!-- TESTIMONIAL section end -->
 
-
-
+  <!-- Our Experience Allows section starts -->
   <section class="py-5">
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="overlay">
       </div>
       <div class="row justify-content-center">
         <div class="col-12 ">
-          <div class=" text-center text-white">
-            <img src="../Project-1/img/video_bg6.jpg" class="img-fluid" alt="">
-            <i class="fa-solid fa-play text-white mb-5"></i>
+          <div class="  bg-video-section text-center text-white">
+            <!-- <img src="../Project-1/img/video_bg6.jpg" class="img-fluid" alt=""> -->
+            <i class="fa-solid fa-play text-light-emphasis  align-items-center pt-0 mt-0 px-2  icons-div"></i>
             <a href="https://www.youtube.com/watch?v=pGfNrteW_ds" class="pc-video-icon popup-video pulse-btn ">
 
             </a>
-          
 
-            <h1 class="pc-video5-title">Our Experience Allows to</h1>
-            <h1>Bring Disruptive</h1>
+
+            <h1 class="pt-0 mt-0 px-2 fw-bold">Our Experience Allows to</h1>
+            <h1 class="px-2 fw-bold"> Bring Disruptive</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container pt-0">
+    <div class="container pt-0 ">
+      <div class="brand1">
       <div class="brand-name bg-black px-5">
-        <div class="row border-bottom  pb-0 py-5 mx-0 px-0 d-flex justify-content-between">
+        <div class="row border-bottom  pb-0  mx-0 px-0 d-flex justify-content-between">
           <div class="col-2 py-5 align-items-center border-end mx-2 pb-4">
             <img src="../Project-1/img/brand1.png" class="img-fluid" alt="">
           </div>
@@ -534,7 +566,7 @@
           </div>
         </div>
       </div>
-    
+
       <div class="brand-name1 bg-black px-5">
         <div class="row d-flex justify-content-between mx-0 px-0 py-5 pt-0">
           <div class=" col-2 py-5 border-end mx-2">
@@ -556,12 +588,14 @@
           </div>
         </div>
       </div>
-    
-      
-    </div>
-  
-  </section>
 
+
+    </div>
+  </div>
+  </section>
+  <!-- Our Experience Allows section end  -->
+
+  <!-- contact section starts -->
   <section class="py-5">
     <div class="container">
       <div class="row">
@@ -569,7 +603,7 @@
           <img src="../Project-1/img/contact_img.png" class="img-fluid" alt="">
         </div>
         <div class="col-6">
-          <div class="form-head text-white fw-2 my-4">
+          <div class="form-head text-white fw-bold my-4">
             <h3>CONTACT </h3>
             <h1>Get In Touch With Us</h1>
 
@@ -577,11 +611,12 @@
             <form action="#">
               <div class="row  py-3">
                 <div class="col-6 ">
-                  <input type="text" name="name" placeholder="Enter Name " class="form-bg-color border-bottom pt-4 pb-2 " 
-                    required>
+                  <input type="text" name="name" placeholder="Enter Name "
+                    class="form-bg-color border-bottom pt-4 pb-2 " required>
                 </div>
                 <div class="col-6">
-                  <input type="email" name="name" placeholder="Enter Email " class="form-bg-color  border-bottom  pt-4 pb-2 ">
+                  <input type="email" name="name" placeholder="Enter Email "
+                    class="form-bg-color  border-bottom  pt-4 pb-2 ">
                 </div>
                 <div class="col-12">
                   <input type="text" name="Subject" placeholder="Subject "
@@ -592,35 +627,28 @@
                     class="form-bg-color border-bottom pt-4 pb-2 "></textarea>
                 </div>
                 <div class="col-12 pt-4">
-                  <button type="button" class="btn  btn1 text-white py-3 px-3 fs-5 fw-2">Send Message <i
-                      class="fa-solid fa-arrow-right"></i></button>
+                  <button type="button" class="btn  btn1 text-white py-2 px-2 fs-5 fw-bold ">Send Message <i
+                      class="fa-solid fa-arrow-right icons-div-1"></i></button>
                 </div>
 
               </div>
           </div>
-
-
-
-
-
-
-
           </form>
         </div>
       </div>
     </div>
     </div>
   </section>
+<!-- contact section end -->
 
-
-
+<!--  Update From Newsfeeds start -->
   <section>
     <div class="container">
       <div class="row py-5">
         <div class="col-12 text-white fw-semibold fw-1">
           <div class="head-div">
-            <h4>UPDATE NEWSFEED</h4>
-            <h2> Update From Newsfeeds</h2>
+            <h5><strong>UPDATE NEWSFEED</strong></h5>
+            <h2><strong>Update From Newsfeeds</strong> </h2>
           </div>
         </div>
       </div>
@@ -631,7 +659,7 @@
             <div class="card bg-black ">
               <img src="../Project-1/img/card1-img.jpg" class=" img-fluid card-img-top" alt="...">
               <div class="card-body  ">
-                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                <h5 class="card-title fw-bold">Quis qutem Vea eum iure to Reprehenderit
                 </h5>
                 <p class="card-text border-bottom  fw-3 py-3"> Drive your business and manage ris with a global industry
                   leader.</p>
@@ -650,7 +678,7 @@
             <div class="card bg-black">
               <img src="../Project-1/img/card2-img.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                <h5 class="card-title fw-bold">Quis qutem Vea eum iure to Reprehenderit
                 </h5>
                 <p class="card-text   border-bottom fw-3 py-3"> Drive your business and manage ris with a global
                   industry leader.</p>
@@ -668,7 +696,7 @@
             <div class="card bg-black">
               <img src="../Project-1/img/card3-img.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title fw-2">Quis qutem Vea eum iure to Reprehenderit
+                <h5 class="card-title fw-bold">Quis qutem Vea eum iure to Reprehenderit
                 </h5>
                 <p class="card-text  border-bottom fw-3 py-3">Drive your business and manage ris with a global industry
                   leader.</p>
@@ -686,54 +714,55 @@
       </div>
   </section>
 
+<!-- Update From Newsfeeds end -->
 
-
+<!-- footer section starts -->
   <section>
-    <footer class="bg-black my-5 py-5">
+    <footer class="bg-black my-5 py-5  mb-0">
       <div class="container-fluid">
-        <div class="row py-5 my-3 text-white border-bottom  ">
+        <div class="row py-5 my-3 text-white border-bottom px-5 ">
           <div class="col-4 fw-semibold">
             <img src="../Project-1/img/logo-5.png" class="img-fluid logo-img2" alt="">
             <h2 class="py-4 my-2">(+12) 345-678-91012</h2>
 
             <h5 class="py-1 ">75 Arlington St. Suite 500 Boston,<br> MA 02116, USA.</h5>
             <div class="icon-div py-4">
-              <i class="fa-brands fa-facebook fs-1 px-2"></i>
-              <i class="fa-brands fa-twitter fs-1 px-2"></i>
-              <i class="fa-brands fa-youtube fs-1 px-2"></i>
-              <i class="fa-brands fa-skype fs-1 px-2"></i>
+              <i class="fa-brands fa-facebook social-div  text-black align-items-center pt-2 px-2 py-2  "></i>
+              <i class="fa-brands fa-twitter  social-div text-black align-items-center pt-2 px-2 py-2 "></i>
+              <i class="fa-brands fa-youtube social-div text-black align-items-center pt-2 px-2 py-2"></i>
+              <i class="fa-brands fa-skype social-div text-black align-items-center pt-2 px-2 py-2"></i>
 
             </div>
           </div>
           <div class="col-8  ">
             <div class="row py-3 text-white  ">
               <div class="col-3">
-                <h2 class="pb-3 ">Userful Links</h2>
-                <p class="">Marketing </p>
-                <p>Product Design</p>
-                <p> Web Design</p>
-                <p>Development</p>
+                <h2 class="pb-3 "><strong>Userful Links</strong></h2>
+                <p class=""><strong>Marketing</strong> </p>
+                <p><strong>Product Design</strong></p>
+                <p><strong> Web Design</strong></p>
+                <p><strong>Development</strong></p>
 
               </div>
               <div class="col-3 px-4">
-                <h2 class="pb-3">Company</h2>
-                <p>IT Colsulting</p>
-                <p> About Us</p>
-                <p>Latest Blogs</p>
-                <p>Contact Us</p>
+                <h2 class="pb-3"><strong>Company</strong></h2>
+                <p><strong>IT Colsulting</strong></p>
+                <p><strong> About Us</strong></p>
+                <p><strong> Latest Blogs</strong></p>
+                <p><strong>Contact Us</strong></p>
 
 
               </div>
               <div class="col-3">
-                <h2 class="pb-3">Solution</h2>
-                <p> Help</p>
-                <p> Support</p>
-                <p>Clients</p>
-                <p>Contacts</p>
+                <h2 class="pb-3"><strong>Solution</strong></h2>
+                <p><strong>Help</strong> </p>
+                <p><strong> Support</strong></p>
+                <p><strong>Clients</strong></p>
+                <p><strong>Contacts</strong></p>
 
               </div>
               <div class="col-3">
-                <h2 class="pb-3">Get App</h2>
+                <h2 class="pb-3 fw-semibold">Get App</h2>
                 <img src="../Project-1/img/play-store.png" class="img-fluid " alt="">
                 <img src="../Project-1/img/app-store.png" class="img-fluid py-3" alt="">
               </div>
@@ -753,7 +782,7 @@
       </div>
     </footer>
   </section>
-
+<!-- footer section end -->
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
