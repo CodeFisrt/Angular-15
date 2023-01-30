@@ -226,3 +226,111 @@ label{
     width: 350px;
     padding:15px 0px;
 }
+.testo{
+    padding: 100px 0px 100px;
+}
+.shead2{
+    margin-bottom: 18px;
+    font-weight:800;
+    font-size: 30px;
+     text-align: center;
+}
+.caroimg{
+    border-radius: 50%;
+    margin: 10px 0px 40px;
+}
+
+.carousel-indicators{
+    position:static;
+    
+   }
+
+   .hire{
+    padding: 100px 0px 100px;
+    background-color: #222222;
+}
+   .hhead{
+    color: whitesmoke;
+    font-size: 42px;
+    margin: 20px 0px 50px;
+    font-weight: 750;
+   }
+   .phire{
+    color: whitesmoke;
+    letter-spacing: 1px;
+
+   }
+.btn2{
+    color:white;
+    /* transition: ease-in-out; */
+    background-color: red;
+    padding: 10px 30px;
+    margin: 12px 30px;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 0.5;
+}
+.col{
+    text-align: center;
+    font-weight: bold;
+    
+} 
+.row{
+    padding-top: 100px;
+}
+
+.bg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Project1/images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 10%;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+/* .col-6{
+    flex: 0 0 50%;
+    width: 50%;
+    margin-right: 10px;
+} */
+
+ .uname {
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0px 10px;
+    border: none;
+    height: 46px;
+    text-indent: 10px;
+    background-color: rgb(6, 4, 4);
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+.name1{
+    padding-right: 10px;
+}
+.email1{
+    padding-left: 10px;
+}
+   
+.msg{
+   height: 190px;
+}
+.txt{
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0px 10px;
+    border: none;
+    height: 86px;
+    text-indent: 10px;
+    background-color: rgb(6, 4, 4);
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}

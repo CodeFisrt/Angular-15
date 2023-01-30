@@ -1,0 +1,21 @@
+* .page1{
+    display: block;
+    width: 12px;
+    height: 6px;
+    color: red;
+    margin: 10px 10px;
+    background: red;
+    text-align: center;
+    border-radius: 10px;
+}
+.owl-page{
+    display: inline-block;
+    cursor: pointer;
+}
+.owl-controls{
+    text-align: center;
+    cursor: pointer;
+}
+.owl-pagination{
+    margin-top: 10px;
+} 
