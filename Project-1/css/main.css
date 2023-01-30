@@ -32,7 +32,9 @@ body {
   transition: 0.5s;
 
 }
-
+.header-bg {
+  background: rgb(6, 19, 25);
+}
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
