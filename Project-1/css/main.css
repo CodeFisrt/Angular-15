@@ -14,19 +14,22 @@ p {
     font-weight: bold;
     line-height: 1.5;
 }
-
+a {
+  text-decoration: none;
+}
 
 body {
   font-family: "Rajdhani", sans-serif;
-  background-repeat: no-repeat;
+ background-color: #212529;
   width: 100%;
 }
+/*  Header section */
 .header-wraper .nav-item .nav-link {
   color: white;
   font-weight: 700;
   display: inline-block;
 }
-
+.header-wraper .nav-item .nav-link:active,
 .header-wraper .nav-item .nav-link:hover {
   color: green;
 }
@@ -49,14 +52,13 @@ li.nav-item {
 }
 
 .about-btn {
-    color: var(--title-color);
-    /* border-bottom: 1px solid white; */
+    color: white;
     font-size: 20px;
     font-weight: 500;
-    /* display: flex; */
-    
-  
 }
+    /*  Header section end */
+  
+/* banner section start */
 .banner-wrap {
   padding-top: 6.875rem;
   color: #fff;
@@ -78,6 +80,9 @@ li.nav-item {
   height: auto;
 }
 
+/* banner section end */
+
+/* About section */
 .about-wrap {
  background-color: #212529; 
  height: 650px;
@@ -88,3 +93,220 @@ li.nav-item {
   text-transform: uppercase;
   font-weight: 500;
 }
+/* About section end */
+
+/* progress section start */
+.progressbar-sec {
+  padding: 80px 0;
+  background: #243654;
+  color: #fff;
+  
+}
+
+.progressbar-sec .box {
+  text-align: center;
+  height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0 0 0 /.15),
+        -6px -6px 10px -1px rgba(255 255 255 / .7);
+}
+.progressbar-sec .chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: var(--title-color);
+  font-weight: 600;
+  margin-bottom: 30px;
+  display: flex;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0 0 0/ .2),
+        inset -4px -4px 6px -1px rgba(255 255 255 / .7),
+        -.5px -.5px 0px rgba(255 255 255 / 1),
+        .5px .5px 0px rgba(0 0 0 /.15),
+        0px 12px 10px -10px rgba(0 0 0 / 0.05);
+}
+.progressbar-sec .chart canvas {
+  position: absolute;
+}
+.progressbar-sec .box h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--title-color);
+  margin-top: -4px;
+  margin-bottom: -7px;
+}
+/* progress section end */
+
+
+/* service section start */
+
+.service-wrap {
+  text-align: center;
+}
+.service-wrap .head-section {
+  color: #fff;
+  border-bottom: green;
+}
+.service-wrap .head-section h3
+{
+  font-weight: 300;
+}
+.service-wrap .head-section h2 {
+  font-weight: bold;
+}
+
+/* service section end */
+
+/* review section start */
+.review-wrap {
+  background-color: #243654;
+  text-align: center;
+  display: flex;
+  padding: 80px 0;
+}
+.count {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.review-des {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: -4px;
+}
+
+/* review section end */
+
+/* portfolio section */
+
+#Portfolio {
+  background-color: #212529;
+}
+.section-heading h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.section-heading h2 {
+  font-weight: bold;
+}
+.btn {
+  color: #fff;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.btn:hover {
+  background:#4cb950 ;
+}
+.section-heading {
+  color: #fff;
+}
+
+/* portfolio section end */
+
+/* testimonial section */
+
+#testimonial {
+  position: relative;
+  background: #102a3c;
+  padding: 120px 0;
+  width: 1200px;
+  height: 520px;
+  border-radius: 10px;
+}
+.testimonial-text {
+  text-align: center;
+  padding: 10px;
+}
+.testimonial .single-slider .client-name span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #243654;
+}
+.testimonial .client-name span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #243654;
+}
+
+.card-text {
+  padding: 3px;
+  margin: 5px 5px;
+  border-bottom: 1px solid lightgrey ;
+}
+
+/* testimonial end */
+
+/* contact section */
+
+#contact-details .img-fluid {
+    justify-items: center;
+    padding-top: 10px;
+}
+#contact-details .section-heading h5 {
+    color: white;
+    font-family: var(--alata-font);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: -4px;
+    margin-bottom: 10px;
+
+}
+#contact-details .section-heading h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.contact-form input {
+  width: 100%;
+  border-bottom: 1px solid #9597b6;
+  background: transparent;
+  padding: 0 0 11px;
+  color: white;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+input, textarea {
+  outline: none;
+  border: 0;
+}
+.contact-form textarea {
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid #9597b6;
+  background: transparent;
+  padding: 0 0 11px;
+  color: white;
+  font-size: 18px;
+  line-height: 100%;
+}
+.def-btn {
+  background:#4cb950;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 25px;
+  border-radius: 8px;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+/* contact section end */
+
+/* blog section */
+
