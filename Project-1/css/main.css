@@ -155,15 +155,24 @@ body {
 }
 
 /* Our Experience Allows section */
- /* .brand-name1{
-position: absolute;
-top: -140px;
-background-color: green;
+.card-title:hover{
+color: orangered;
+cursor: pointer;
+}
 
- } */
+
  .bg-video-section{
   background-image: url('../img/video_bg6.jpg');
   padding: 253px 36px;
+  /* opacity: 0.5 */
+}
+
+.brand1{
+  
+border-top: 1px solid rgba(211, 211, 211, 0.973);
+border-left: 1px solid rgba(211, 211, 211, 0.973);
+border-right: 1px solid rgba(211, 211, 211, 0.973);
+border-bottom: 1px solid rgba(211, 244, 244, 0.973);
 }
 
 
@@ -180,10 +189,17 @@ background-color: green;
   color:white;
 }
 /* Update From Newsfeeds */
+
+
+
 .read-btn {
   align-items: flex-end;
   color: white;
   font-size: 15px;
+}
+
+.read-btn:hover{
+  color: orangered;
 }
 
 /* footer section */
@@ -217,13 +233,19 @@ background-color: green;
 }
 .social-div:hover{
   background-color: orangered;
+  cursor: pointer;
 } 
 
+.container-class{
+  position: relative;
+  top: -190px;
+  text-align: center;
+}
 
 
 
 
-.overlay {
+/* .overlay {
   position: fixed;
   /* Sit on top of the page content */
   display: none;
@@ -241,11 +263,13 @@ background-color: green;
   z-index: 2;
   /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
-  /* Add a pointer on hover */
+  /* /* Add a pointer on hover  */
+} 
+
+
+
+.play{
+  font-weight: 900;
 }
-
-
-
-
 
 
