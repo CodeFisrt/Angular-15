@@ -71,7 +71,7 @@
   .fontsty {
     font-family: 'Quicksand', sans-serif;
   }
-.skill, .resume, .services {    font-size: 15px;
+.skill, .resume, .services, .contactme {    font-size: 15px;
   color: #1a1a1ad6;
   padding-bottom: 10px;
   border-bottom: 1px solid #66666666;}
@@ -98,4 +98,7 @@
   text-align: center;
   padding-top: 12px;
   font-size: 25px;
+}
+.submitbtn:hover {
+  color: #58b1d4d8;
 }
