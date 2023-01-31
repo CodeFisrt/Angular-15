@@ -2,6 +2,7 @@ body {
     height: 110vh;
     background-color: rgb( 6, 19, 25);
     font-family: "Rajdhani", sans-serif;
+  
 
 }
 /* The side navigation menu */
@@ -47,17 +48,11 @@ body {
     transition: margin-left .5s;
     padding: 20px;
   }
-.menu-icon{
-    font-size: 35px;
-    color: #ffff;
-} 
-.main-div{
-    color: #ffff;
-}
 
-.intro-wrep-div{
-    color: #ffff;
-}
+.menu-icon{
+    font-size: 35px;   
+} 
+
 .div-introdutcion{
   color:orangered ;
 }
@@ -65,9 +60,9 @@ body {
   margin: 0px;
   
 }
-
 .div-text-wrep{
     font-size: 25px;
+    border-bottom: 1px solid;
 }
 .div-download{
     border-radius: 15px;
@@ -76,46 +71,186 @@ body {
     color: #f1f1f1;
     font-size: 20px;
 }
-button:hover{
+.div-download:hover{
   background-color: #818181;
 }
 .new-section-height{
   height: 110vh;
 }
-.new-div-text-wrep{
-  color: #f1f1f1;
-}
+
 .img-div{
   padding-top: 65px;
 }
-.div-wrep-img-text{
-  background-image:url("img/counter_bg6.jpg");
-}
-  
+ 
 .div-wrep-img-text{
   color: #f1f1f1;
   height: 70vh; 
   padding-top: 70px;
 }
-.main-wrep-text-div-intro{
-  color: #f1f1f1;
+
+.div-wrep-img-text{
+  background-image: url(/Angular-15/sagar-project/img/counter_bg6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
-.card-wrep{
-  color: #f1f1f1;
-}
+
 .main-dev{
   margin-top: 40px;
 }
 .copy{
   color: #f1f1f1;
 }
-hr{
-  color: #818181;
-}
 
 .main-div-section{
   height: 100vh;
 }
+
+.section{
+  border-bottom: 1px solid;
+  color: #818181;
+ 
+}
+
+.section-name{
+  border-right: 1px solid;
+  color: #818181;
+}
+
+.wrep-content{
+  height: 60vh;
+}
+
+button:hover{
+  background-color: #ff4500;
+}
+button{
+  background-color: #2f4f42;
+  font-weight: 700;
+  color: #f1f1f1;
+  font-size: 20px;
+  border-radius: 10px; 
+}
+.wigs{
+  background-color: #ff4500;
+}
+
+.card-div-new-imgs{
+  background-color: rgb( 6, 19, 25);
+  border-color: #818181;
+}
+
+.font-div{
+  font-size: 30px;
+}
+
+.new-div-flex{
+  height: 80vh;
+}
+.video-div{
+ width: 1300px;
+ height: 500px;
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex-intro{
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.div-line-img{
+  border: 1px solid;
+  padding: 50px;
+  
+}
+
+
+.line-div{
+  border-right: 2px solid;
+  
+}
+
+.div-line{
+  border-bottom: 1px solid;
+}
+
+
+
+
+
+
+.from-div{
+  background-color: rgb( 6, 19, 25);
+  border-top: #818181;
+  border-left: #818181;
+  border-right: #818181;
+  color: white
+}
+
+.new-intro-hero{
+  height: 90vh;
+}
+
+.div-css-div{
+  border-bottom: 1px solid;
+  color: #818181;
+}
+
+.card-body-div{
+  height: 80vh;
+}
+
+.logo-img{
+  height: 90vh;
+  padding-top: 50px;
+}
+
+.new-div-font{
+  font-size: 30px;
+}
+.fa-facebook:hover{
+  background-color: #ff4500;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fa-google:hover{
+  background-color: #ff4500;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fa-twitter:hover{
+  background-color: #ff4500;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fa-instagram:hover{
+  background-color: #ff4500;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.color-div{
+  color: #ff4500;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
