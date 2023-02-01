@@ -8,7 +8,11 @@
   margin:0px !important;
 
 }
-}
+/* .bg-video-section{
+  background-image: url('../img/video_bg6.jpg');
+  height: 300px;
+  width: 300px;
+} */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     

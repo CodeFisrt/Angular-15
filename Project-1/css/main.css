@@ -177,6 +177,10 @@ border-right: 1px solid rgba(211, 211, 211, 0.973);
 border-bottom: 1px solid rgba(211, 244, 244, 0.973);
 }
 
+.c{
+  height: 55px;
+  width: 55px;
+}
 
 /* contact form section */
 .form-bg-color {
