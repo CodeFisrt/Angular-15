@@ -20,7 +20,7 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+   
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -33,7 +33,7 @@
     .list-wrap,
     .list-wrap2 {
       list-style: none;
-      margin: 0px -36px;
+      margin: 0px -36px !important;
     
     }
 
