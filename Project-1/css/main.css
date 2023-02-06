@@ -96,13 +96,13 @@ li.nav-item {
 /* About section end */
 
 /* progress section start */
-.progressbar-sec {
+ .progressbar-sec {
   padding: 80px 0;
   background: #243654;
   color: #fff;
   
 }
-
+/*  
 .progressbar-sec .box {
   text-align: center;
   height: 220px;
@@ -138,7 +138,7 @@ li.nav-item {
   color: var(--title-color);
   margin-top: -4px;
   margin-bottom: -7px;
-}
+} */
 /* progress section end */
 /* 
 
@@ -148,8 +148,10 @@ li.nav-item {
 
 .mt-100{
   margin-top: 200px;
+  
 }
 .progress {
+  
   width: 150px;
   height: 150px !important;
   float: left; 
@@ -177,6 +179,13 @@ li.nav-item {
   top: 0;
   z-index: 1;
 }
+.progressbar-sec .progress-value h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--title-color);
+  margin-top: -4px;
+  margin-bottom: -7px;
+} 
 .progress .progress-left {
   left: 0;
 }
@@ -212,9 +221,10 @@ li.nav-item {
 .progress .progress-value {
   width: 90%;
   height: 90%;
+  font-weight: bold;
   border-radius: 50%;
-  background: #000;
-  font-size: 24px;
+  background: none;
+  font-size: 55px;
   color: #fff;
   line-height: 135px;
   text-align: center;
@@ -223,21 +233,37 @@ li.nav-item {
   left: 5%;
 }
 .progress.blue .progress-bar {
-  border-color: #049dff;
+  border-color: #4cb950;
 }
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
 .progress.yellow .progress-bar {
-  border-color: #fdba04;
+  border-color: #4cb950;
 }
 .progress.yellow .progress-right .progress-bar {
-  animation: loading-3 1.8s linear forwards;
+  animation: loading-3 1.6s linear forwards 1.8s;
 }
 .progress.yellow .progress-left .progress-bar {
   animation: none;
 }
-@keyframes loading-1 {
+
+.progress.pink .progress-bar{
+  border-color: #4cb950;
+}
+.progress.pink .progress-left .progress-bar{
+  animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+  border-color: #4cb950;
+}
+.progress.green .progress-left .progress-bar{
+  animation: loading-5 1.2s linear forwards 1.8s;
+}
+
+
+
+/* @keyframes loading-1 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -266,7 +292,62 @@ li.nav-item {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
   }
+} */
+@keyframes loading-1{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
 }
+@keyframes loading-2{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+@keyframes loading-4{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(50deg);
+      transform: rotate(50deg);
+  }
+}
+@keyframes loading-5{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(120deg);
+      transform: rotate(120deg);
+  }
+}
+@media only screen and (max-width: 990px){
+  .progress{ margin-bottom: 20px; }
+}
+
+/* progressbar section end */
 
 /* service section start */
 
